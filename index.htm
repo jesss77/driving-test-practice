@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driving Test Practice</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1 class="title">🚗 Driving Test Practice</h1>
+            <button class="language-toggle" onclick="toggleLanguage()">
+                <span id="lang-text">English</span>
+            </button>
+        </div>
+
+        <!-- Practice Modes -->
+        <div class="practice-modes">
+            <button class="mode-btn active" onclick="setMode('sequential')">Sequential</button>
+            <button class="mode-btn" onclick="setMode('random')">Random</button>
+            <button class="mode-btn" onclick="setMode('missed')">Missed Questions</button>
+        </div>
+
+
+        <!-- Category Filters -->
+        <div class="category-filters">
+            <button class="category-btn active" onclick="filterByCategory('all')">All Categories</button>
+            <button class="category-btn" onclick="filterByCategory('Law')">Law</button>
+            <button class="category-btn" onclick="filterByCategory('Safety')">Safety</button>
+            <button class="category-btn" onclick="filterByCategory('Signs')">Signs</button>
+        </div>
+
+        <!-- Reset Progress Button -->
+        <div class="reset-section">
+            <button class="reset-btn" onclick="confirmReset()">Reset Progress</button>
+        </div>        
+
+        <br>
+        
+        <!-- Search -->
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search questions..." onkeyup="searchQuestions(this.value)">
+        </div>
+
+        <!-- Progress Section -->
+        <div class="progress-section">
+            <div class="stats">
+                <span id="question-counter">Question 1 of 10</span>
+                <span id="score-display">Score: 0/0 (0%)</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+        </div>
+
+        <!-- Question Container -->
+        <div class="question-container" id="question-container">
+            <div class="question-number" id="question-number">Question 1</div>
+            <div class="category-tag" id="category-tag">Law</div>
+            <div class="question-text" id="question-text">Loading question...</div>
+            
+            <!-- Question Image Container -->
+            <div class="question-image-container" id="question-image-container" style="display: none;">
+                <img id="question-image" class="question-image" alt="Question image">
+            </div>
+            
+            <div class="options-container" id="options-container">
+                <!-- Options will be populated here -->
+            </div>
+
+            <div class="feedback" id="feedback">
+                <!-- Feedback will be shown here -->
+            </div>
+
+            <div class="navigation">
+                <button class="nav-btn" onclick="previousQuestion()" id="prev-btn">Previous</button>
+                <div class="question-jump">
+                    <span>Jump to:</span>
+                    <input type="number" class="jump-input" id="jump-input" min="1" max="10">
+                    <button class="nav-btn" onclick="jumpToQuestion()">Go</button>
+                </div>
+                <button class="nav-btn" onclick="nextQuestion()" id="next-btn">Next</button>
+            </div>
+        </div>
+
+        <!-- Results Container -->
+        <div class="results-container" id="results-container">
+            <div class="results-header">
+                <div class="final-score" id="final-score">Final Score: 0/0 (0%)</div>
+                <p>Test completed! Review your incorrect answers below.</p>
+            </div>
+            
+            <div class="incorrect-questions" id="incorrect-questions">
+
+            </div>
+            <button class="nav-btn" onclick="restartTest()">Restart Test</button>
+        </div>
+    </div>
+    <script src="./js/questions.js"></script>
+    <script src="./js/app.js"></script>
+
+</body>
+</html> 
