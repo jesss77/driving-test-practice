@@ -55,10 +55,10 @@ window.questions = [
         "id": 3,
         "category": "Law",
         "english": {
-          "question": "If you meet an oncoming vehicle while your high beams are on, you should:",
+          "question": "If a car approaches from the other direction while your high beam is on, you should: ",
           "options": [
             "Turn off all lights",
-            "Flash repeatedly between high beams and low beams",
+            "Switch between high and low beam repeatedly",
             "Use low beams immediately"
           ],
           "correct": 2,
@@ -66,7 +66,7 @@ window.questions = [
           "image": null
         },
         "french": {
-          "question": "Si vous croisez un véhicule venant dans l'autre sens alors que vos feux de route sont allumés, vous devez :",
+          "question": "Si vous croisez un véhicule venant dans lautre sens alors que vos feux de route sont allumés, vous devez:",
           "options": [
             "Éteindre tous les feux",
             "Basculer répétitivement entre feux de route et feux de croisement",
@@ -1850,22 +1850,22 @@ window.questions = [
     "id": 72,
     "category": "Safety",
     "english": {
-        "question": "A driver should get rest:",
+        "question": "When reversing, the driver of a heavy vehicle should depend on information:",
         "options": [
             "From driving assistant",
-            "Every 2 hours",
-            "Only when feeling tired"
+            "From mirrors",
+            "From rear view camera"
         ],
         "correct": 0,
         "explanation": "A driver should get rest from a driving assistant to prevent fatigue.",
         "image": null
     },
     "french": {
-        "question": "Un conducteur devrait se reposer :",
+        "question": "Si le conducteur du poids lourd veut faire marche arrière il doit compter sur :",
         "options": [
             "D'un assistant de conduite",
-            "Toutes les 2 heures",
-            "Seulement lorsqu'il se sent fatigué"
+            "Les rétroviseurs",
+            "La caméra arrière"
         ],
         "correct": 0,
         "explanation": "Un conducteur devrait se reposer avec l'aide d'un assistant de conduite pour prévenir la fatigue.",
@@ -2500,24 +2500,24 @@ window.questions = [
     "id": 97,
     "category": "Law",
     "english": {
-        "question": "When a vehicle in front signals to turn left, be alert that it might:",
+        "question": "When you overtake with your motorcycle a vehicle from the left side, you should always remember that this vehicle may: ",
         "options": [
-            "Swerve left suddenly",
-            "Speed up instead",
-            "Stop completely"
+            "Decrease its speed gradually",
+            "Turn on its hazard lights",
+            "Swerve left suddenly"
         ],
-        "correct": 0,
-        "explanation": "Be prepared for sudden left movements when a vehicle signals a left turn.",
+        "correct": 2,
+        "explanation": "Be prepared for sudden movements when a vehicle signals a turn.",
         "image": null
     },
     "french": {
-        "question": "Lorsqu'un véhicule devant vous signale un virage à gauche, soyez attentif car il pourrait :",
+        "question": "Quand vous dépassez un véhicule à gauche avec votre motocycle, vous devez vous rappeler que ce véhicule peut:",
         "options": [
-            "Faire un écart brusque vers la gauche",
-            "Accélérer à la place",
-            "S'arrêter complètement"
+            "Décélérer graduellement",
+            "Allumer les feux de détresse",
+            "S'écarter soudain vers la gauche"
         ],
-        "correct": 0,
+        "correct": 2,
         "explanation": "Soyez prêt à des mouvements brusques vers la gauche lorsqu'un véhicule signale un virage à gauche.",
         "image": null
     }
@@ -2604,22 +2604,22 @@ window.questions = [
     "id": 101,
     "category": "Law",
     "english": {
-        "question": "What is a benefit of eco-driving?",
+        "question": "What are the environmental benefits of eco-friendly drivin?",
         "options": [
-            "Higher fuel consumption",
             "Reduction in local air pollutant levels",
-            "Increased engine wear"
+            "Reduction in local air pollutant levels",
+            "Reduction in road traffic"
         ],
         "correct": 1,
         "explanation": "Eco-driving reduces local air pollutants by optimizing driving habits.",
         "image": null
     },
     "french": {
-        "question": "Quel est un avantage de l'éco-conduite ?",
+        "question": "Quels sont les avantages Diminution des émissions de gaz à effet de serre (CO2) environnementaux de lécoconduite?",
         "options": [
-            "Consommation de carburant plus élevée",
-            "Réduction des niveaux de polluants atmosphériques locaux",
-            "Usure accrue du moteur"
+            "Augmentation des emissions de gaz à effet de serre (CO2)",
+            "Réduction des emissions de gaz à effet de serre (CO2)",
+            "Réduction de l'embouteillage"
         ],
         "correct": 1,
         "explanation": "L'éco-conduite réduit les polluants atmosphériques locaux en optimisant les habitudes de conduite.",
@@ -2633,19 +2633,19 @@ window.questions = [
         "question": "Eco-driving can lead to:",
         "options": [
             "Lower vehicle maintenance costs",
-            "More frequent brake replacements",
-            "Higher insurance premiums"
+            "Savings up to 50% in fuel and money",
+            "Lower insurance cost"
         ],
         "correct": 0,
         "explanation": "Smoother driving techniques reduce wear on brakes and other components.",
         "image": null
     },
     "french": {
-        "question": "L'éco-conduite peut entraîner :",
+        "question": "Quels sont les avantages financiers de léco-conduite? ",
         "options": [
-            "Des coûts d'entretien du véhicule plus bas",
-            "Des remplacements de freins plus fréquents",
-            "Des primes d'assurance plus élevées"
+            "Réduction des coûts d'entretien du véhicule",
+            "Réduction jusqu'à 50% des coûts d'entretien de carburant et de la dépense d'argent",
+            "Réduction du cout de l'assurance"
         ],
         "correct": 0,
         "explanation": "Des techniques de conduite plus souples réduisent l'usure des freins et autres composants.",
@@ -2656,10 +2656,10 @@ window.questions = [
     "id": 103,
     "category": "Law",
     "english": {
-        "question": "Eco-driving benefits include:",
+        "question": "Whatare the savings benefits of eco-driving?",
         "options": [
-            "Increased fuel consumption",
-            "Higher emissions",
+            "Improves road safety",
+            "Improves driving skills",
             "All of the above"
         ],
         "correct": 2,
@@ -2667,10 +2667,10 @@ window.questions = [
         "image": null
     },
     "french": {
-        "question": "Les avantages de l'éco-conduite comprennent :",
+        "question": "Quels sont les avantages de léco-conduite en termes de sécurité?",
         "options": [
-            "Consommation de carburant accrue",
-            "Émissions plus élevées",
+            "Amélioration de la sécurité routière",
+            "Amélioration des compétences de conduite ",
             "Toutes ces réponses"
         ],
         "correct": 2,
@@ -2682,25 +2682,25 @@ window.questions = [
     "id": 104,
     "category": "Law",
     "english": {
-        "question": "Proper eco-driving can:",
+        "question": "What are the social responsibility benefits of eco-driving?",
         "options": [
-            "Reduce stress while driving",
-            "Improve traffic flow",
+            "Avoid stress while driving",
+            "Improve driving skills",
             "All of the above"
         ],
         "correct": 2,
-        "explanation": "Eco-driving provides multiple benefits including stress reduction and traffic improvement.",
+        "explanation": "Eco-driving provides multiple benefits including stress reduction and driving improvement.",
         "image": null
     },
     "french": {
-        "question": "Une bonne éco-conduite peut :",
+        "question": "Quels sont les avantages sociaux de léco-conduite?",
         "options": [
-            "Réduire le stress au volant",
-            "Améliorer la circulation",
+            "Eviter le stress pendant la conduite",
+            "Laugmentation du confort des conducteurs et des passagers",
             "Toutes ces réponses"
         ],
         "correct": 2,
-        "explanation": "L'éco-conduite offre de multiples avantages, notamment la réduction du stress et l'amélioration de la circulation.",
+        "explanation": "L'éco-conduite offre de multiples avantages, notamment la réduction du stress et l'amélioration de la conduite.",
         "image": null
     }
 },
@@ -2708,22 +2708,22 @@ window.questions = [
     "id": 105,
     "category": "Law",
     "english": {
-        "question": "Which feature helps maintain constant speed for fuel efficiency?",
+        "question": "What instrument should be used to monitor your speed on high-ways?",
         "options": [
             "Cruise control",
-            "Sport mode",
-            "Four-wheel drive"
+            "Braking and accelerating constantly",
+            "Sudden Braking"
         ],
         "correct": 0,
         "explanation": "Cruise control helps maintain steady speeds, improving fuel efficiency.",
         "image": null
     },
     "french": {
-        "question": "Quelle fonction permet de maintenir une vitesse constante pour l'efficacité énergétique ?",
+        "question": "Quel outil devez-vous utiliser pour contrôler votre vitesse sur les autoroutes?",
         "options": [
             "Régulateur de vitesse",
-            "Mode sport",
-            "Transmission intégrale"
+            "Freiner et accélérer à un rythme régulier",
+            "Le freinage brusque"
         ],
         "correct": 0,
         "explanation": "Le régulateur de vitesse permet de maintenir des vitesses constantes, améliorant l'efficacité énergétique.",
@@ -2734,7 +2734,7 @@ window.questions = [
     "id": 106,
     "category": "Law",
     "english": {
-        "question": "The most fuel-efficient speed range for most vehicles is:",
+        "question": "The optimal speed range for eco-friendly driving is:",
         "options": [
             "50 km/h - 80 km/h",
             "100 km/h - 120 km/h",
@@ -2745,7 +2745,7 @@ window.questions = [
         "image": null
     },
     "french": {
-        "question": "La plage de vitesse la plus économe en carburant pour la plupart des véhicules est :",
+        "question": "La vitesse optimale pour l'éco-conduite :",
         "options": [
             "50 km/h - 80 km/h",
             "100 km/h - 120 km/h",
@@ -2760,7 +2760,7 @@ window.questions = [
     "id": 107,
     "category": "Law",
     "english": {
-        "question": "Optimal RPM for fuel efficiency in most vehicles is around:",
+        "question": "Maximum RPM level that shoould not be exceeded:",
         "options": [
             "2000 RPM",
             "4000 RPM",
@@ -2771,7 +2771,7 @@ window.questions = [
         "image": null
     },
     "french": {
-        "question": "Le régime optimal pour l'efficacité énergétique dans la plupart des véhicules est d'environ :",
+        "question": "Le nombre maximal de tours par minute du moteur que vous ne devez pas dépasser en conduisant est: ",
         "options": [
             "2000 tr/min",
             "4000 tr/min",
@@ -2786,22 +2786,22 @@ window.questions = [
     "id": 108,
     "category": "Law",
     "english": {
-        "question": "What happens when you accelerate aggressively?",
+        "question": "What happens if you exceed 2000 RPM",
         "options": [
-            "It saves fuel",
+            "It increases the temperature of the engine",
             "It consumes more fuel",
-            "No effect on fuel consumption"
+            "It consumes less fuel"
         ],
         "correct": 1,
         "explanation": "Aggressive acceleration significantly increases fuel consumption.",
         "image": null
     },
     "french": {
-        "question": "Que se passe-t-il lorsque vous accélérez brusquement ?",
+        "question": "Que se passe-t-il lorsque vous dépassez 2000 tr/min en conduisant?",
         "options": [
-            "Cela économise du carburant",
-            "Cela consomme plus de carburant",
-            "Aucun effet sur la consommation de carburant"
+            "La température du moteur augmente",
+            "La consommation de carburant augmente",
+            "La consommation de carburant diminue"
         ],
         "correct": 1,
         "explanation": "Une accélération brusque augmente considérablement la consommation de carburant.",
@@ -2812,10 +2812,10 @@ window.questions = [
     "id": 109,
     "category": "Law",
     "english": {
-        "question": "How can you improve fuel efficiency?",
+        "question": "What is the result of fast starts and hard braking?",
         "options": [
-            "Remove unnecessary weight",
-            "Keep tires properly inflated",
+            "Wastes fuel",
+            "Wears out tires and brakes more quickly",
             "All of the above"
         ],
         "correct": 2,
@@ -2823,10 +2823,10 @@ window.questions = [
         "image": null
     },
     "french": {
-        "question": "Comment pouvez-vous améliorer l'efficacité énergétique ?",
-        "options": [
-            "Retirer le poids inutile",
-            "Maintenir les pneus correctement gonflés",
+        "question": "Quel est le résultat des démarrages rapides et des freinages brusques?",
+   "options": [
+            "Perte de carburant",
+            "Détérioration plus rapide des pneus et des freins",
             "Toutes ces réponses"
         ],
         "correct": 2,
@@ -2908,7 +2908,7 @@ window.questions = [
       "Vérifier la pression des pneus au moins une fois par an pour préserver une faible résistance au roulement"
     ],
     "correct": 1,
-    "explanation": "Vérifier la pression des pneus chaque mois permet de prolonger leur durée de vie et d’améliorer l’efficacité énergétique.",
+    "explanation": "Vérifier la pression des pneus chaque mois permet de prolonger leur durée de vie et d'améliorer l'efficacité énergétique.",
     "image": null
   }
 },{
@@ -2941,24 +2941,24 @@ window.questions = [
     "id": 114,
     "category": "Law",
     "english": {
-        "question": "What should you do with roof racks when not in use?",
+        "question": "What should you do when your car stops moving for more than a minute?",
         "options": [
             "Put it on neutral",
             "Turn it off",
             "Do nothing"
         ],
-        "correct": 2,
-        "explanation": "Removing unused roof racks reduces aerodynamic drag.",
+        "correct": 1,
+        "explanation": "Turn off the car.",
         "image": null
     },
     "french": {
-        "question": "Que devez-vous faire avec les barres de toit lorsqu'elles ne sont pas utilisées ?",
+        "question": "Que devez-vous faire si la voiture sarrête pendant plus dune minute?",
         "options": [
             "La mettre au point mort",
             "L'éteindre",
             "Ne rien faire"
         ],
-        "correct": 2,
+        "correct": 1,
         "explanation": "Retirer les barres de toit inutilisées réduit la traînée aérodynamique.",
         "image": null
     }
@@ -2967,25 +2967,25 @@ window.questions = [
   "id": 115,
   "category": "Law",
   "english": {
-    "question": "How do you enhance the nperformance of your engine and reduce emission levels?",
+    "question": "How do you enhance the performance of your engine and reduce emission levels?",
     "options": [
       "Buy a new engine",
-      "Change the engine’s water regularly",
+      "Change the engine's water regularly",
       "Use clean fuel that complies with international standards"
     ],
     "correct": 2,
-    "explanation": "",
+    "explanation": "Use clean fuel that complies with international standards to insure the car runs smoothly",
     "image": null
   },
   "french": {
-    "question": "Comment améliorer la performance de votre moteur et réduire le niveau d’émissions?",
+    "question": "Comment améliorer la performance de votre moteur et réduire le niveau d'émissions?",
     "options": [
       "Acheter un nouveau moteur",
       "Changer leau du moteur régulièrement",
       "Utiliser du carburant propre et conforme aux normes internationales"
     ],
     "correct": 2,
-    "explanation": "",
+    "explanation": "Utiliser du carburant propre et conforme aux normes internationales permet d'assurer la meilleure performance du moteur et de réduire les émissions.",
     "image": null
   }
 },
@@ -3030,7 +3030,7 @@ window.questions = [
     "image": null
   },
   "french": {
-    "question": "Pourquoi est-il préférable de se garer à l’ombre?",
+    "question": "Pourquoi est-il préférable de se garer à l'ombre?",
     "options": [
       "Réduction de la puissance du climatiseur au démarrage",
       "Diminution de la consommation de carburant",
@@ -3051,18 +3051,18 @@ window.questions = [
       "0.3",
       "0.1"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "",
     "image": null
   },
   "french": {
-    "question": "De combien l’usage fréquent de la climatisation augmente la consommation de carburant?",
+    "question": "De combien l'usage fréquent de la climatisation augmente la consommation de carburant?",
     "options": [
       "0.2",
       "0.3",
       "0.1"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "",
     "image": null
   }
@@ -5809,7 +5809,7 @@ window.questions = [
       "The driver may change lanes if the solid line is to the left",
       "The driver may not change lanes if the solid line is to the left"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "Solid line to your side means no lane change.",
     "image": null
   },
@@ -5820,7 +5820,7 @@ window.questions = [
       "Il nest pas permis au conducteur de franchir la ligne discontinue si cette ligne est directement à sa gauche",
       "Il nest pas permis au conducteur de franchir la ligne continue si cette ligne est directement à sa gauche"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "La ligne continue du côté du conducteur interdit de changer de voie.",
     "image": null
   }
@@ -7708,7 +7708,7 @@ window.questions = [
             "30 meters",
             "40 meters"
         ],
-        "correct": 2,
+        "correct": 1,
         "explanation": "Place the warning triangle 30 meters away from the vehicle on normal roads.",
         "image": null
         },
@@ -7719,7 +7719,7 @@ window.questions = [
             "30 mètres",
             "40 mètres"
         ],
-        "correct": 2,
+        "correct": 1,
         "explanation": "Le triangle doit être placé à 30 mètres du véhicule sur routes ordinaires.",
         "image": null
         }
