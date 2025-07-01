@@ -458,7 +458,7 @@ window.questions = [
     "french": {
         "question": "Si le capot du moteur s'ouvre de lui-même lorsque que vous roulez sur la route, vous devez immédiatement:",
         "options": [
-            "Accélérer un petit peu",
+            "Accélérer un peu",
             "Décélérer graduellement pour vous arrêter du côté de la route",
             "Appuyer fortement sur la pédale de frein"
         ],
@@ -1527,7 +1527,7 @@ window.questions = [
         "options": [
             "Aux femmes qui conduisent",
             "Au véhicule qui roule à grande vitesse",
-            "Au véhicule qui est déjà dans le rond point"
+            "A lautocar qui a allumé les feux de détresse"
         ],
         "correct": 2,
         "explanation": "Céder le passage aux bus scolaires avec feux de détresse activés.",
@@ -1557,32 +1557,6 @@ window.questions = [
         ],
         "correct": 0,
         "explanation": "Céder le passage aux véhicules déjà engagés dans le rond-point.",
-        "image": null
-    }
-},
-{
-    "id": 61,
-    "category": "Safety",
-    "english": {
-        "question": "It is legal to parallel park a vehicle to the pavement on a single-lane two-way street:",
-        "options": [
-            "To the right of the direction of driving for the vehicle",
-            "Doesn't matter as long as it doesn't hinder traffic",
-            "To the left of the road"
-        ],
-        "correct": 0,
-        "explanation": "Parallel parking is legal to the right of the direction of driving on a single-lane two-way street.",
-        "image": null
-    },
-    "french": {
-        "question": "La loi permet de garer le véhicule près de la chaussée sur une route à deux voies de sens opposés:",
-        "options": [
-            "A droite, selon le sens de circulation du véhicule",
-            "N'importe où, pourvu qu'il ne gêne pas la circulation",
-            "A gauche"
-        ],
-        "correct": 0,
-        "explanation": "Le stationnement en parallèle est autorisé à droite du sens de circulation sur une route à deux voies de sens opposés.",
         "image": null
     }
 },
@@ -1835,11 +1809,11 @@ window.questions = [
         "image": null
     },
     "french": {
-        "question": "Une prudence supplémentaire est requise lorsqu'un véhicule :",
-        "options": [
-            "Roule à grande vitesse",
-            "Entre dans des endroits étroits",
-            "A des vitres teintées"
+        "question": "Le conducteur du poids lourd doit prendre en considération la largeur de son véhicule", 
+ "options": [
+            "Lorsqu'il sarrête pour la sièste",
+            "Lorsquil entre dans un endroit étroit",
+            "Pendant le chargement du véhicule"
         ],
         "correct": 1,
         "explanation": "Une prudence supplémentaire est nécessaire lorsqu'un véhicule entre dans des endroits étroits en raison de l'espace et de la visibilité limités.",
@@ -1863,7 +1837,7 @@ window.questions = [
     "french": {
         "question": "Si le conducteur du poids lourd veut faire marche arrière il doit compter sur :",
         "options": [
-            "D'un assistant de conduite",
+            "Quelqu'un qui l'aide",
             "Les rétroviseurs",
             "La caméra arrière"
         ],
@@ -1887,7 +1861,7 @@ window.questions = [
         "image": null
     },
     "french": {
-        "question": "Avant de conduire un camion-citerne, le conducteur doit s'assurer que :",
+        "question": "Après le remplissage d'un camion-citerne, le conducteur doit s'assurer que :",
         "options": [
             "Tous les couvercles et vannes de libération sont solidement fixés",
             "La citerne est complètement pleine",
@@ -1913,11 +1887,11 @@ window.questions = [
         "image": null
     },
     "french": {
-        "question": "Les motocyclistes doivent se protéger en :",
+        "question": "La vrai protection du motocycliste est assurée par :",
         "options": [
-            "Portant des vêtements de couleur vive",
-            "Portant un équipement de protection pour motocycliste",
-            "Roulant uniquement pendant la journée"
+            "Le contrat dassurance",
+            "La tenue protectrice",
+            "La circulation sur une seule roue"
         ],
         "correct": 1,
         "explanation": "Porter un équipement de protection pour motocycliste approprié est essentiel pour la sécurité du conducteur.",
@@ -1930,9 +1904,9 @@ window.questions = [
     "english": {
         "question": "Motorcycle gloves protect hands from:",
         "options": [
-            "Sunburn",
+            "Fire",
             "Friction with asphalt and small stones",
-            "Cold weather only"
+            "Driving fast and straddling lanes"
         ],
         "correct": 1,
         "explanation": "Motorcycle gloves protect hands from friction with asphalt and small stones in case of a fall.",
@@ -1941,9 +1915,9 @@ window.questions = [
     "french": {
         "question": "Les gants de moto protègent les mains contre :",
         "options": [
-            "Les coups de soleil",
+            "Au feu",
             "Le frottement avec l'asphalte et les petites pierres",
-            "Seulement le temps froid"
+            "A la circulation rapide et le dépassement des voies"
         ],
         "correct": 1,
         "explanation": "Les gants de moto protègent les mains contre le frottement avec l'asphalte et les petites pierres en cas de chute.",
@@ -1965,11 +1939,11 @@ window.questions = [
         "image": null
     },
     "french": {
-        "question": "Les gants de moto protègent :",
+        "question": "Lorsque le motocycliste met des gants :",
         "options": [
-            "Les mains du froid et des blessures",
-            "Seulement les paumes",
-            "Seulement en hiver"
+            "ses mains sont protégées du froid et des blessures",
+            "il peut mieux contrôler le volant sur les descentes",
+            "il est couvert par la loi et par les compagnies dassurance en cas daccident"
         ],
         "correct": 0,
         "explanation": "Les gants de moto protègent les mains du froid et des blessures en toutes saisons.",
@@ -1991,11 +1965,11 @@ window.questions = [
         "image": null
     },
     "french": {
-        "question": "Les bottes de moto protègent :",
+        "question": "Lorsque le motocycliste met les bottes protectrices, cela protège:",
         "options": [
-            "Les pieds des blessures, de l'eau et du froid",
-            "Seulement les orteils",
-            "Seulement par temps pluvieux"
+            "Ses pieds des blessures, de l'eau et du froid",
+            "Ses cuisses et ses genoux du vent et de l'eau",
+            "Ses cuisses et ses genoux du vent et de l'eau"
         ],
         "correct": 0,
         "explanation": "Les bottes de moto protègent les pieds des blessures, de l'eau et du froid dans toutes les conditions.",
@@ -2017,11 +1991,11 @@ window.questions = [
         "image": null
     },
     "french": {
-        "question": "Une veste de moto protège :",
+        "question": "Lorsque le motocycliste met la tenue protectrice de la colonne vertébrale, cela protège:",
         "options": [
             "La colonne vertébrale et la moelle épinière des blessures",
-            "Seulement du vent",
-            "Seulement par temps froid"
+            "La poitrine et l'abdomen de la chaleur et du froid",
+            "Sa colonne vertébrale et sa moelle épinière de la pluie"
         ],
         "correct": 0,
         "explanation": "Une veste de moto protège la colonne vertébrale et la moelle épinière des blessures en cas d'accident.",
@@ -2043,11 +2017,11 @@ window.questions = [
         "image": null
     },
     "french": {
-        "question": "La visière d'un casque de moto protège les :",
+        "question": "La visière d'un casque de moto protège :",
         "options": [
-            "Yeux de la pluie, du vent, du sable et des insectes",
-            "Seulement du soleil",
-            "Seulement à grande vitesse"
+            "Les yeux de la pluie, du vent, du sable et des insectes",
+            "Les oreilles du froid",
+            "Les yeux de lécoulement des larmes"
         ],
         "correct": 0,
         "explanation": "La visière d'un casque de moto protège les yeux de la pluie, du vent, du sable et des insectes.",
@@ -2072,8 +2046,8 @@ window.questions = [
         "question": "Un casque de moto approprié protège :",
         "options": [
             "Des blessures mortelles à la tête",
-            "Seulement du bruit",
-            "Seulement en milieu urbain"
+            "Les oreilles du bruit",
+            "La colonne vertébrale"
         ],
         "correct": 0,
         "explanation": "Un casque de moto approprié protège des blessures mortelles à la tête dans toutes les conditions de conduite.",
@@ -2098,8 +2072,8 @@ window.questions = [
         "question": "Conduire sans permis valide :",
         "options": [
             "Est illégal",
-            "Est autorisé pour de courtes distances",
-            "Est permis en cas d'urgence"
+            "Est légal",
+            "Est normal"
         ],
         "correct": 0,
         "explanation": "Conduire sans permis valide est illégal et peut entraîner des sanctions.",
@@ -2123,9 +2097,9 @@ window.questions = [
     "french": {
         "question": "En circulant, si le motocycliste tient le casque sans le porter, ce comportement:",
         "options": [
-            "Ne procure pas une protection légale au motocycliste",
-            "Est mieux que pas de casque du tout",
-            "Fournit une protection adéquate"
+            "Ne lève pas la responsabilité juridique du conducteur",
+            "Est très logique",
+            "Lève pas la responsabilité juridique du conducteur"
         ],
         "correct": 0,
         "explanation": "Les casques fantaisie qui ne respectent pas les normes de sécurité ne fournissent pas de protection légale.",
@@ -2151,7 +2125,7 @@ window.questions = [
         "options": [
             "Une combinaison fluorescente",
             "Des vêtements sombres",
-            "Des vêtements de ville ordinaires"
+            "Des vêtements de sport"
         ],
         "correct": 0,
         "explanation": "Une combinaison fluorescente augmente considérablement la visibilité la nuit.",
@@ -2188,7 +2162,7 @@ window.questions = [
     "id": 85,
     "category": "Law",
     "english": {
-        "question": "Before a long trip, motorcyclists should:",
+        "question": "If the motorcycle is equipped with a hydraulic brake system, then the driver should periodically:",
         "options": [
             "Check the level of brake fluid",
             "Only check tire pressure",
@@ -2199,11 +2173,11 @@ window.questions = [
         "image": null
     },
     "french": {
-        "question": "Avant un long voyage, les motocyclistes doivent :",
-        "options": [
-            "Vérifier le niveau de liquide de frein",
-            "Vérifier uniquement la pression des pneus",
-            "Juste faire le plein de carburant"
+        "question": "Si le motocycle est équipé d'un système de freinage hydraulique, le motocycliste doit régulièrement:",
+          "options": [
+            "Vérifier le niveau de lubriquant de frein",
+            "Régler la tension du fil",
+            "Diminuer lutilisation des freins"
         ],
         "correct": 0,
         "explanation": "Vérifier le niveau de liquide de frein est crucial pour le fonctionnement sécuritaire de la moto.",
@@ -2221,7 +2195,7 @@ window.questions = [
             "3 millimeters"
         ],
         "correct": 2,
-        "explanation": "5mm is the minimum safe tread depth for motorcycle tires.",
+        "explanation": "3mm is the minimum safe tread depth for motorcycle tires.",
         "image": null
     },
     "french": {
@@ -2232,7 +2206,7 @@ window.questions = [
             "3 millimètres"
         ],
         "correct": 2,
-        "explanation": "5mm est la profondeur minimale de sécurité pour les pneus de moto.",
+        "explanation": "3mm est la profondeur minimale de sécurité pour les pneus de moto.",
         "image": null
     }
 },
@@ -2253,9 +2227,9 @@ window.questions = [
     "french": {
         "question": "Lorsque vous conduisez une moto, vous devez :",
         "options": [
-            "Vous asseoir près des poignées de direction",
-            "Vous asseoir aussi loin que possible",
-            "Vous tenir debout sur les repose-pieds"
+            "Vous asseoir près du guidon",
+            "Vous asseoir loin du guidon",
+            "Tenir le guidon avec une seule main"
         ],
         "correct": 0,
         "explanation": "S'asseoir près des poignées de direction permet un meilleur contrôle.",
@@ -2281,7 +2255,7 @@ window.questions = [
         "options": [
             "Le poignet droit vers le bas",
             "Le poignet droit vers le haut",
-            "Le poignet droit droit"
+            "Le poignet gauche vers le haut"
         ],
         "correct": 0,
         "explanation": "Le poignet doit être vers le bas pour permettre un contrôle progressif de l'accélérateur.",
@@ -2320,49 +2294,23 @@ window.questions = [
     "english": {
         "question": "When braking hard on a motorcycle, the bike should be:",
         "options": [
-            "Leaned to one side",
+            "At an intersection",
             "In a straight direction",
-            "Turned slightly"
+            "In a curve"
         ],
         "correct": 1,
         "explanation": "The motorcycle should be straight for maximum braking efficiency.",
         "image": null
     },
     "french": {
-        "question": "Lors d'un freinage brusque sur une moto, la moto doit être :",
-        "options": [
-            "Inclinée d'un côté",
-            "En ligne droite",
-            "Légèrement tournée"
+        "question": "Pour éviter le dérapage lors d'un freinage sévère, le motocycliste doit:",
+          "options": [
+              "Garder une direction droite",
+              "Rouler à la bonne vitesse",
+              "Prendre un virage"
         ],
         "correct": 1,
         "explanation": "La moto doit être droite pour une efficacité de freinage maximale.",
-        "image": null
-    }
-},
-{
-    "id": 91,
-    "category": "Law",
-    "english": {
-        "question": "Motorcycle skids are generally caused by:",
-        "options": [
-            "Slippery road and nervous reaction",
-            "Proper braking technique",
-            "Driving at slow speeds"
-        ],
-        "correct": 0,
-        "explanation": "Most motorcycle skids result from slippery surfaces and sudden nervous reactions from the rider.",
-        "image": null
-    },
-    "french": {
-        "question": "Les dérapages de moto sont généralement causés par :",
-        "options": [
-            "Chaussée glissante et réaction nerveuse",
-            "Une technique de freinage appropriée",
-            "Conduite à vitesse lente"
-        ],
-        "correct": 0,
-        "explanation": "La plupart des dérapages de moto résultent de surfaces glissantes et de réactions nerveuses soudaines du conducteur.",
         "image": null
     }
 },
@@ -2381,14 +2329,14 @@ window.questions = [
         "image": null
     },
     "french": {
-        "question": "Lorsque vous roulez sur des routes mouillées, vous devez freiner :",
+        "question": "En conduisant votre motocycle la nuit, vous devez:",
         "options": [
-            "Rapidement et fermement",
-            "Lentement et maintenir une distance d'arrêt plus longue",
-            "Comme sur des routes sèches"
+            "Rouler lentement et laisser une courte distance de sécurité",
+            "Rouler lentement et laisser une longue distance de sécurité",
+            "Rouler rapidement et allumer les feux de croisement"
         ],
         "correct": 1,
-        "explanation": "Sur routes mouillées, freinez lentement et prévoyez une plus grande distance d'arrêt en raison de la traction réduite.",
+        "explanation": " Rouler lentement et prévoyez une plus grande distance d'arrêt pendant la nuit est la meilleur facon d'eviter les accidents.",
         "image": null
     }
 },
@@ -2407,11 +2355,11 @@ window.questions = [
         "image": null
     },
     "french": {
-        "question": "Des vibrations dans le guidon peuvent indiquer :",
+        "question": "La motocyclette vibre durant la circulation en raison de :",
         "options": [
-            "Rotation inégale d'au moins une roue ou un pneu",
-            "Un bon alignement des roues",
-            "Un fonctionnement normal du moteur"
+            "La déviation dau moins une roue ou un pneu ",
+            "La rotation coaxiale des deux roues",
+            "La mauvaise distribution du poids"
         ],
         "correct": 0,
         "explanation": "Les vibrations du guidon indiquent souvent une rotation inégale des roues ou des problèmes de pneus.",
@@ -2435,9 +2383,9 @@ window.questions = [
     "french": {
         "question": "La principale cause d'accidents de moto est :",
         "options": [
-            "Une défaillance mécanique",
-            "Une vitesse inappropriée",
-            "De mauvaises conditions météorologiques"
+            "De l'huile et des cailloux sur la route",
+            "Une vitesse inconvenable",
+            "Des creux et des trous sur la route"
         ],
         "correct": 1,
         "explanation": "Une vitesse inadaptée aux conditions est la principale cause d'accidents de moto.",
@@ -2459,11 +2407,11 @@ window.questions = [
         "image": null
     },
     "french": {
-        "question": "Lorsque vous approchez d'une sortie sur une autoroute, vous devez :",
+        "question": "Pour eviter d'être heurté sur une intersection, vous devez :",
         "options": [
-            "Accélérer pour vous insérer en douceur",
+            "Compter sur les miroirs",
             "Ralentir et vous déplacer vers la voie appropriée",
-            "Continuer à la même vitesse"
+            "Passer à la droite des véhicules garés sur l'intersection."
         ],
         "correct": 1,
         "explanation": "Ralentissez et déplacez-vous vers la voie de sortie suffisamment à l'avance.",
@@ -2485,7 +2433,7 @@ window.questions = [
         "image": null
     },
     "french": {
-        "question": "Si un animal traverse soudainement devant votre moto, vous devez :",
+        "question": "Si un animal traverse soudainement devant votre moto, vous devez: (bonus)",
         "options": [
             "Faire un écart brusque vers la gauche",
             "Freiner fort et essayer de l'éviter",
@@ -2604,13 +2552,13 @@ window.questions = [
     "id": 101,
     "category": "Law",
     "english": {
-        "question": "What are the environmental benefits of eco-friendly drivin?",
+        "question": "What are the environmental benefits of eco-friendly driving?",
         "options": [
-            "Reduction in local air pollutant levels",
+            "Increase of greenhouse gas emissions (CO2) ",
             "Reduction in local air pollutant levels",
             "Reduction in road traffic"
         ],
-        "correct": 1,
+        "correct":1,
         "explanation": "Eco-driving reduces local air pollutants by optimizing driving habits.",
         "image": null
     },
@@ -3119,660 +3067,632 @@ window.questions = [
   }
 },
 {
-    "id": 121,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Caution, slippery road ahead",
-        "Caution, speed bumps ahead",
-        "Caution, uneven road ahead"
-      ],
-      "correct": 2,
-      "explanation": "This sign warns drivers of a uneven road ahead.",
-      "image": "./images/caution-uneven-road.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Attention, route glissante",
-        "Attention, casse-vitesse",
-        "Attention, abaissement de la route"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau avertit les conducteurs d'un abaissement de la route.",
-      "image": "./images/caution-uneven-road.png"
-    }
-  },
-  {
     "id": 122,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Roundabout ahead",
-        "Caution, left bend ahead",
-        "Caution, right bend ahead"
-      ],
-      "correct": 2,
-      "explanation": "This sign indicates a right bend ahead.",
-      "image": "./images/caution-right-turn.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "Roundabout ahead",
+            "Caution, left bend ahead",
+            "Caution, right bend ahead"
+        ],
+        "correct": 2,
+        "explanation": "This sign indicates a right bend ahead.",
+        "image": "./images/caution-right-turn.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Rond point",
-        "Virage à gauche",
-        "Attention, virage à droite"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique virage à droite devant.",
-      "image": "./images/caution-right-turn.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Rond point",
+            "Virage à gauche",
+            "Attention, virage à droite"
+        ],
+        "correct": 2,
+        "explanation": "Ce panneau indique virage à droite devant.",
+        "image": "./images/caution-right-turn.png"
     }
-  },
-  {
+},
+{
     "id": 123,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Caution, right bend ahead",
-        "Vehicles can go left",
-        "Caution, left bend ahead"
-      ],
-      "correct": 2,
-      "explanation": "This sign warns of a left bend ahead.",
-      "image": "./images/caution-left-turn.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "Caution, right bend ahead",
+            "Vehicles can go left",
+            "Caution, left bend ahead"
+        ],
+        "correct": 2,
+        "explanation": "This sign warns of a left bend ahead.",
+        "image": "./images/caution-left-turn.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Attention,virage à droite",
-        "Le véhicule peut tourner à gauche",
-        "Attention, virage à gauche"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau avertit d'un virage à gauche devant.",
-      "image": "./images/caution-left-turn.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Attention,virage à droite",
+            "Le véhicule peut tourner à gauche",
+            "Attention, virage à gauche"
+        ],
+        "correct": 2,
+        "explanation": "Ce panneau avertit d'un virage à gauche devant.",
+        "image": "./images/caution-left-turn.png"
     }
-  },
+},
 
-  {
+{
     "id": 124,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Caution, double bend ahead, first one to the right",
-        "Caution, double lane road",
-        "Caution, double bend ahead, first one to the left"
-      ],
-      "correct": 0,
-      "explanation": "This sign warns of a double bend ahead, with the first bend to the right.",
-      "image": "./images/caution-double-bend-right.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "Caution, double bend ahead, first one to the right",
+            "Caution, double lane road",
+            "Caution, double bend ahead, first one to the left"
+        ],
+        "correct": 0,
+        "explanation": "This sign warns of a double bend ahead, with the first bend to the right.",
+        "image": "./images/caution-double-bend-right.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Attention, succession de virages commençant à droite",
-        "Attention, route à deux voies",
-        "Attention, succession de virages commençant à gauche"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau avertit d'une succession de virages devant, le premier à droite.",
-      "image": "./images/caution-double-bend-right.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Attention, succession de virages commençant à droite",
+            "Attention, route à deux voies",
+            "Attention, succession de virages commençant à gauche"
+        ],
+        "correct": 0,
+        "explanation": "Ce panneau avertit d'une succession de virages devant, le premier à droite.",
+        "image": "./images/caution-double-bend-right.png"
     }
-  },
-  {
+},
+{
     "id": 125,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Caution, double lane road",
-        "Caution, double bend ahead, first one to the left",
-        "Caution, double bend ahead, first one to the right"
-      ],
-      "correct": 1,
-      "explanation": "This sign warns of a double bend ahead, with the first bend to the left.",
-      "image": "./images/caution-double-bend-left.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "Caution, double lane road",
+            "Caution, double bend ahead, first one to the left",
+            "Caution, double bend ahead, first one to the right"
+        ],
+        "correct": 1,
+        "explanation": "This sign warns of a double bend ahead, with the first bend to the left.",
+        "image": "./images/caution-double-bend-left.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Attention, route à deux voies",
-        "Attention, succession de virages commençant à gauche",
-        "Attention, succession de virages commençant à droite"
-      ],
-      "correct": 1,
-      "explanation": "Ce panneau avertit d'une succession de virages devant, le premier à gauche.",
-      "image": "./images/caution-double-bend-left.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Attention, route à deux voies",
+            "Attention, succession de virages commençant à gauche",
+            "Attention, succession de virages commençant à droite"
+        ],
+        "correct": 1,
+        "explanation": "Ce panneau avertit d'une succession de virages devant, le premier à gauche.",
+        "image": "./images/caution-double-bend-left.png"
     }
-  },
-  {
+},
+{
     "id": 126,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Caution, narrow road ahead",
-        "Caution, dangerous slope",
-        "Caution, slippery road ahead"
-      ],
-      "correct": 2,
-      "explanation": "This sign warns of a slippery road ahead.",
-      "image": "./images/caution-slippery-road.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "Caution, narrow road ahead",
+            "Caution, dangerous slope",
+            "Caution, slippery road ahead"
+        ],
+        "correct": 2,
+        "explanation": "This sign warns of a slippery road ahead.",
+        "image": "./images/caution-slippery-road.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Attention, route étroite",
-        "Attention, descente dangereuse",
-        "Attention, route glissante"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau avertit d'une route glissante devant.",
-      "image": "./images/caution-slippery-road.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Attention, route étroite",
+            "Attention, descente dangereuse",
+            "Attention, route glissante"
+        ],
+        "correct": 2,
+        "explanation": "Ce panneau avertit d'une route glissante devant.",
+        "image": "./images/caution-slippery-road.png"
     }
-  },
-  {
+},
+{
     "id": 127,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Unsecure crossing",
-        "No entry",
-        "Caution, students or school"
-      ],
-      "correct": 2,
-      "explanation": "This sign warns of students or a school ahead.",
-      "image": "./images/caution-students-school.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "Unsecure crossing",
+            "No entry",
+            "Caution, students or school"
+        ],
+        "correct": 2,
+        "explanation": "This sign warns of students or a school ahead.",
+        "image": "./images/caution-students-school.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Passage non sécurisé",
-        "Sens interdit",
-        "Attention, élèves ou école"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau avertit d'élèves ou d'une école devant.",
-      "image": "./images/caution-students-school.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Passage non sécurisé",
+            "Sens interdit",
+            "Attention, élèves ou école"
+        ],
+        "correct": 2,
+        "explanation": "Ce panneau avertit d'élèves ou d'une école devant.",
+        "image": "./images/caution-students-school.png"
     }
-  },
-  {
+},
+{
     "id": 128,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Caution, animals",
-        "Stray animals",
-        "Animals not allowed"
-      ],
-      "correct": 0,
-      "explanation": "This sign warns of animals on the road ahead.",
-      "image": "./images/caution-animals.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "Caution, animals",
+            "Stray animals",
+            "Animals not allowed"
+        ],
+        "correct": 0,
+        "explanation": "This sign warns of animals on the road ahead.",
+        "image": "./images/caution-animals.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Attention, animaux sur la route",
-        "Animaux errants",
-        "Interdit aux animaux"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau avertit d'animaux sur la route devant.",
-      "image": "./images/caution-animals.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Attention, animaux sur la route",
+            "Animaux errants",
+            "Interdit aux animaux"
+        ],
+        "correct": 0,
+        "explanation": "Ce panneau avertit d'animaux sur la route devant.",
+        "image": "./images/caution-animals.png"
     }
-  },
-  {
+},
+{
     "id": 129,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Caution, double lane road",
-        "Caution, intersection without right of way",
-        "Travel on the right side of the road"
-      ],
-      "correct": 0,
-      "explanation": "This sign warns of a double lane road.",
-      "image": "./images/caution-double-lane.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "Caution, double lane road",
+            "Caution, intersection without right of way",
+            "Travel on the right side of the road"
+        ],
+        "correct": 0,
+        "explanation": "This sign warns of a double lane road.",
+        "image": "./images/caution-double-lane.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Attention, route à deux voies",
-        "Attention, intersection sans priorité",
-        "Circuler à droite"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau avertit route à deux voies.",
-      "image": "./images/caution-double-lane.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Attention, route à deux voies",
+            "Attention, intersection sans priorité",
+            "Circuler à droite"
+        ],
+        "correct": 0,
+        "explanation": "Ce panneau avertit route à deux voies.",
+        "image": "./images/caution-double-lane.png"
     }
-  },
-  {
+},
+{
     "id": 130,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Caution, various dangers",
-        "You cannot turn",
-        "Caution, roundabout ahead"
-      ],
-      "correct": 2,
-      "explanation": "This sign warns of a roundabout ahead.",
-      "image": "./images/caution-roundabout.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "Caution, various dangers",
+            "You cannot turn",
+            "Caution, roundabout ahead"
+        ],
+        "correct": 2,
+        "explanation": "This sign warns of a roundabout ahead.",
+        "image": "./images/caution-roundabout.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Attention, dangers divers",
-        "Virage interdit",
-        "Attention, rond point"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau avertit d'un rond point devant.",
-      "image": "./images/caution-roundabout.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Attention, dangers divers",
+            "Virage interdit",
+            "Attention, rond point"
+        ],
+        "correct": 2,
+        "explanation": "Ce panneau avertit d'un rond point devant.",
+        "image": "./images/caution-roundabout.png"
     }
-  },
-  {
+},
+{
     "id": 131,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Caution, intersection with no right of way",
-        "Caution, vehicles coming from the opposite direction have the right of way",
-        "Caution, intersection ahead"
-      ],
-      "correct": 2,
-      "explanation": "This sign warns of an intersection ahead.",
-      "image": "./images/caution-intersection.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "Caution, intersection with no right of way",
+            "Caution, vehicles coming from the opposite direction have the right of way",
+            "Caution, intersection ahead"
+        ],
+        "correct": 2,
+        "explanation": "This sign warns of an intersection ahead.",
+        "image": "./images/caution-intersection.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Attention, intersection sans priorité",
-        "Attention, priorité aux véhicules venant en face",
-        "Attention, intersection"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau avertit d'une intersection.",
-      "image": "./images/caution-intersection.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Attention, intersection sans priorité",
+            "Attention, priorité aux véhicules venant en face",
+            "Attention, intersection"
+        ],
+        "correct": 2,
+        "explanation": "Ce panneau avertit d'une intersection.",
+        "image": "./images/caution-intersection.png"
     }
-  },
-  {
+},
+{
     "id": 132,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Merging with a freeway",
-        "Caution, intersection with no right of way",
-        "Caution, vehicles coming from the opposite direction have the right of way"
-      ],
-      "correct": 2,
-      "explanation": "This sign indicates vehicles from the opposite direction have the right of way.",
-      "image": "./images/caution-opposite-direction-right-of-way.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "Merging with a freeway",
+            "Caution, intersection with no right of way",
+            "Caution, vehicles coming from the opposite direction have the right of way"
+        ],
+        "correct": 2,
+        "explanation": "This sign indicates vehicles from the opposite direction have the right of way.",
+        "image": "./images/caution-opposite-direction-right-of-way.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Route menant à l'autoroute",
-        "Attention, intersection sans priorité",
-        "Attention, priorité aux véhicules venant en face"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique que les véhicules venant en face ont la priorité.",
-      "image": "./images/caution-opposite-direction-right-of-way.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Route menant à l'autoroute",
+            "Attention, intersection sans priorité",
+            "Attention, priorité aux véhicules venant en face"
+        ],
+        "correct": 2,
+        "explanation": "Ce panneau indique que les véhicules venant en face ont la priorité.",
+        "image": "./images/caution-opposite-direction-right-of-way.png"
     }
-  },
-  {
+},
+{
     "id": 133,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Caution, intersection on the right",
-        "Caution, intersection with no right of way",
-        "Caution, vehicles coming from the opposite direction have the right of way"
-      ],
-      "correct": 1,
-      "explanation": "This sign indicates no vehicles have right of way at the intersection.",
-      "image": "./images/caution-intersection-no-right-of-way.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "Caution, intersection on the right",
+            "Caution, intersection with no right of way",
+            "Caution, vehicles coming from the opposite direction have the right of way"
+        ],
+        "correct": 1,
+        "explanation": "This sign indicates no vehicles have right of way at the intersection.",
+        "image": "./images/caution-intersection-no-right-of-way.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Attention, intersection à droite",
-        "Attention, intersection sans priorité",
-        "Attention, priorité aux véhicules venant en face"
-      ],
-      "correct": 1,
-      "explanation": "Ce panneau indique qu'aucun véhicule n'a de priorité à cette intersection.",
-      "image": "./images/caution-intersection-no-right-of-way.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Attention, intersection à droite",
+            "Attention, intersection sans priorité",
+            "Attention, priorité aux véhicules venant en face"
+        ],
+        "correct": 1,
+        "explanation": "Ce panneau indique qu'aucun véhicule n'a de priorité à cette intersection.",
+        "image": "./images/caution-intersection-no-right-of-way.png"
     }
-  },
-  {
+},
+{
     "id": 134,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "One-minute parking",
-        "End of speed limit",
-        "Road with priority right of way"
-      ],
-      "correct": 2,
-      "explanation": "This sign indicates a road where you have priority right of way.",
-      "image": "./images/caution-priority-road.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "One-minute parking",
+            "End of speed limit",
+            "Road with priority right of way"
+        ],
+        "correct": 2,
+        "explanation": "This sign indicates a road where you have priority right of way.",
+        "image": "./images/caution-priority-road.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Stationnement à durée limitée",
-        "Fin de la limite de vitesse",
-        "Route prioritaire"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique une route où vous avez la priorité.",
-      "image": "./images/caution-priority-road.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Stationnement à durée limitée",
+            "Fin de la limite de vitesse",
+            "Route prioritaire"
+        ],
+        "correct": 2,
+        "explanation": "Ce panneau indique une route où vous avez la priorité.",
+        "image": "./images/caution-priority-road.png"
     }
-  },
+},
 
-  {
+{
     "id": 135,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Not reserved for pedestrians",
-        "No entry for pedestrians",
-        "Caution, pedestrian crossing"
-      ],
-      "correct": 2,
-      "explanation": "This sign warns of a pedestrian crossing ahead.",
-      "image": "./images/caution-pedestrians.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "Not reserved for pedestrians",
+            "No entry for pedestrians",
+            "Caution, pedestrian crossing"
+        ],
+        "correct": 2,
+        "explanation": "This sign warns of a pedestrian crossing ahead.",
+        "image": "./images/caution-pedestrians.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "N'est pas réservé aux piétons",
-        "Interdit aux piétons",
-        "Attention, passage piéton"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau avertit d'un passage piéton devant.",
-      "image": "./images/caution-pedestrians.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "N'est pas réservé aux piétons",
+            "Interdit aux piétons",
+            "Attention, passage piéton"
+        ],
+        "correct": 2,
+        "explanation": "Ce panneau avertit d'un passage piéton devant.",
+        "image": "./images/caution-pedestrians.png"
     }
-  },
-  {
+},
+{
     "id": 136,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Caution, cycles crossing",
-        "Trolley crossing",
-        "No entry for bikes"
-      ],
-      "correct": 0,
-      "explanation": "This sign warns of bicycles crossing ahead.",
-      "image": "./images/caution-cycles.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "Caution, cycles crossing",
+            "Trolley crossing",
+            "No entry for bikes"
+        ],
+        "correct": 0,
+        "explanation": "This sign warns of bicycles crossing ahead.",
+        "image": "./images/caution-cycles.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Attention, passage cyclistes",
-        "Passage pour poussettes",
-        "Interdit aux deux roues"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau avertit d'un passage de cyclistes devant.",
-      "image": "./images/caution-cycles.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Attention, passage cyclistes",
+            "Passage pour poussettes",
+            "Interdit aux deux roues"
+        ],
+        "correct": 0,
+        "explanation": "Ce panneau avertit d'un passage de cyclistes devant.",
+        "image": "./images/caution-cycles.png"
     }
-  },
-  {
+},
+{
     "id": 137,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Caution, narrow road ahead",
-        "Caution, wide road",
-        "Caution, narrow road on the left"
-      ],
-      "correct": 0,
-      "explanation": "This sign warns of a narrow road ahead.",
-      "image": "./images/caution-narrow-road.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "Caution, narrow road ahead",
+            "Caution, wide road",
+            "Caution, narrow road on the left"
+        ],
+        "correct": 0,
+        "explanation": "This sign warns of a narrow road ahead.",
+        "image": "./images/caution-narrow-road.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Attention, route étroite",
-        "Attention, route large",
-        "Attention, route étroite à gauche"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau avertit d'une route étroite devant.",
-      "image": "./images/caution-narrow-road.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Attention, route étroite",
+            "Attention, route large",
+            "Attention, route étroite à gauche"
+        ],
+        "correct": 0,
+        "explanation": "Ce panneau avertit d'une route étroite devant.",
+        "image": "./images/caution-narrow-road.png"
     }
-  },
-  {
+},
+{
     "id": 138,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Priority to the right",
-        "Narrow road on the right",
-        "Caution, narrow road on the left"
-      ],
-      "correct": 0,
-      "explanation": "This sign indicates that vehicles coming from the right have the priority.",
-      "image": "./images/caution-priority-road.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "Priority to the right",
+            "Narrow road on the right",
+            "Caution, narrow road on the left"
+        ],
+        "correct": 2,
+        "explanation": "This sign indicates a narrow road on the left.",
+        "image": "./images/caution-narrow-road-left.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Priorité à droite",
-        "Route étroite à droite",
-        "Attention, route étroite à gauche"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau indique que les véhicules venant de droite ont la priorité.",
-      "image": "./images/caution-priority-road.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Priorité à droite",
+            "Route étroite à droite",
+            "Attention, route étroite à gauche"
+        ],
+        "correct": 2,
+        "explanation": "Ce panneau indique une route étroite à gauche.",
+        "image": "./images/caution-narrow-road-left.png"
     }
-  },
-  {
+},
+{
     "id": 139,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Caution, vehicles coming from the opposite direction have the right of way",
-        "Caution, narrow road on the right",
-        "End of priority"
-      ],
-      "correct": 0,
-      "explanation": "This sign indicates that oncoming traffic has the right of way.",
-      "image": "./images/caution-opposite-direction-right-of-way.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "Caution, vehicles coming from the opposite direction have the right of way",
+            "Caution, narrow road on the right",
+            "End of priority"
+        ],
+        "correct": 1,
+        "explanation": "This sign indicates a narrow road on the right.",
+        "image": "./images/caution-narrow-road-right.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Attention, priorité aux véhicules venant en face",
-        "Attention, route étroite à droite",
-        "Fin de priorité"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau indique que les véhicules venant en face ont la priorité.",
-      "image": "./images/caution-opposite-direction-right-of-way.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Attention, priorité aux véhicules venant en face",
+            "Attention, route étroite à droite",
+            "Fin de priorité"
+        ],
+        "correct": 1,
+        "explanation": "Ce panneau indique une route étroite à droite.",
+        "image": "./images/caution-narrow-road-right.png"
     }
-  },
-  {
+},
+{
     "id": 140,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Caution, falling or fallen rocks ahead",
-        "Caution, narrow road ahead",
-        "Mountainous area"
-      ],
-      "correct": 0,
-      "explanation": "This sign warns of falling or fallen rocks ahead.",
-      "image": "./images/caution-falling-rocks.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "Caution, falling or fallen rocks ahead",
+            "Caution, narrow road ahead",
+            "Mountainous area"
+        ],
+        "correct": 0,
+        "explanation": "This sign warns of falling or fallen rocks ahead.",
+        "image": "./images/caution-falling-rocks.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Attention, roches ou de chute de roches sur la route",
-        "Attention, route étroite",
-        "Région montagnarde"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau avertit de la présence possible de chutes de pierres sur la route.",
-      "image": "./images/caution-falling-rocks.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Attention, roches ou de chute de roches sur la route",
+            "Attention, route étroite",
+            "Région montagnarde"
+        ],
+        "correct": 0,
+        "explanation": "Ce panneau avertit de la présence possible de chutes de pierres sur la route.",
+        "image": "./images/caution-falling-rocks.png"
     }
-  },
-  {
+},
+{
     "id": 141,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "No entry to all types of motor vehicles",
-        "Caution, electrical signs",
-        "Caution, roundabout ahead"
-      ],
-      "correct": 0,
-      "explanation": "This sign prohibits entry for all types of motor vehicles.",
-      "image": "./images/no-entry-motor-vehicles.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "No entry to all types of motor vehicles",
+            "Caution, electrical signs",
+            "Caution, roundabout ahead"
+        ],
+        "correct": 1,
+        "explanation": "",
+        "image": "./images/caution-electrical-signs.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Interdit à tous types de véhicules motorisés",
-        "Attention, panneaux électriques",
-        "Attention, rond point"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau interdit l'accès à tous les véhicules motorisés.",
-      "image": "./images/no-entry-motor-vehicles.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Interdit à tous types de véhicules motorisés",
+            "Attention, feux de signalisation",
+            "Attention, rond point"
+        ],
+        "correct": 1,
+        "explanation": "",
+        "image": "./images/caution-electrical-signs.png"
     }
-  },
-  {
+},
+{
     "id": 142,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "No entry",
-        "Give way - priority road ahead",
-        "Caution, various dangers"
-      ],
-      "correct": 0,
-      "explanation": "This sign indicates no entry for all vehicles.",
-      "image": "./images/no-entry.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "No entry",
+            "Give way - priority road ahead",
+            "Caution, various dangers"
+        ],
+        "correct": 2,
+        "explanation": "",
+        "image": "./images/caution-various-dangers.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Sens interdit",
-        "Cédez le passage - route prioritaire devant",
-        "Attention, dangers divers"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau indique un sens interdit pour tous les véhicules.",
-      "image": "./images/no-entry.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Sens interdit",
+            "Cédez le passage - route prioritaire devant",
+            "Attention, dangers divers"
+        ],
+        "correct": 2,
+        "explanation": "",
+        "image": "./images/caution-various-dangers.png"
     }
-  },
-  {
+},
+{
     "id": 143,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "No entry",
-        "Give way - priority road ahead",
-        "Caution, various dangers"
-      ],
-      "correct": 1,
-      "explanation": "This sign indicates you must yield to the priority road ahead.",
-      "image": "./images/caution-give-way.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "No entry",
+            "Give way - priority road ahead",
+            "Caution, various dangers"
+        ],
+        "correct": 1,
+        "explanation": "This sign indicates you must yield to the priority road ahead.",
+        "image": "./images/caution-give-way.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Sens interdit",
-        "Cédez le passage - route prioritaire devant",
-        "Attention, dangers divers"
-      ],
-      "correct": 1,
-      "explanation": "Ce panneau indique de céder le passage à la route prioritaire devant.",
-      "image": "./images/caution-give-way.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Sens interdit",
+            "Cédez le passage - route prioritaire devant",
+            "Attention, dangers divers"
+        ],
+        "correct": 1,
+        "explanation": "Ce panneau indique de céder le passage à la route prioritaire devant.",
+        "image": "./images/caution-give-way.png"
     }
-  },
-  {
+},
+{
     "id": 144,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Caution, vehicles coming from the opposite direction have the right of way",
-        "No entry",
-        "End of priority"
-      ],
-      "correct": 2,
-      "explanation": "This sign indicates the end of a priority road.",
-      "image": "./images/caution-end-priority-road.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "Caution, vehicles coming from the opposite direction have the right of way",
+            "No entry",
+            "End of priority"
+        ],
+        "correct": 2,
+        "explanation": "This sign indicates the end of a priority road.",
+        "image": "./images/caution-end-priority-road.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Attention, priorité aux véhicules venant en face",
-        "Sens interdit",
-        "Fin de priorité"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique la fin d'une route prioritaire.",
-      "image": "./images/caution-end-priority-road.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Attention, priorité aux véhicules venant en face",
+            "Sens interdit",
+            "Fin de priorité"
+        ],
+        "correct": 2,
+        "explanation": "Ce panneau indique la fin d'une route prioritaire.",
+        "image": "./images/caution-end-priority-road.png"
     }
-  },
-  {
+},
+{
     "id": 145,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Caution, vehicles coming from the opposite direction have the right of way",
-        "No overtaking for all kinds of vehicles",
-        "End of priority"
-      ],
-      "correct": 1,
-      "explanation": "This sign indicates overtaking is not allowed for any kind of vehicle.",
-      "image": "./images/no-overtaking.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "Caution, vehicles coming from the opposite direction have the right of way",
+            "No overtaking for all kinds of vehicles",
+            "End of priority"
+        ],
+        "correct": 0,
+        "explanation": "",
+        "image": "./images/caution-opposite-direction-right-of-way (2).png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Attention, priorité aux véhicules venant en face",
-        "Dépassement interdit pour tous les types de véhicules",
-        "Fin de priorité"
-      ],
-      "correct": 1,
-      "explanation": "Ce panneau interdit le dépassement pour tous les types de véhicules.",
-      "image": "./images/no-overtaking.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Attention, priorité aux véhicules venant en face",
+            "Dépassement interdit pour tous les types de véhicules",
+            "Fin de priorité"
+        ],
+        "correct": 0,
+        "explanation": "",
+        "image": "./images/caution-opposite-direction-right-of-way (2).png"
     }
-  },
-
- 
-  {
+},
+{
     "id": 146,
     "category": "Signs",
     "english": {
@@ -3802,1952 +3722,107 @@ window.questions = [
     "id": 147,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "One lane road",
-        "No parking",
-        "No entry for all motor vehicles"
-      ],
-      "correct": 2,
-      "explanation": "This sign prohibits access to all motor vehicles.",
-      "image": "./images/no-entry-motor-vehicles.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "One lane road",
+            "No parking",
+            "No entry for all motor vehicles"
+        ],
+        "correct": 2,
+        "explanation": "This sign prohibits access to all motor vehicles.",
+        "image": "./images/no-entry-motor-vehicles.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Route à une seule voie",
-        "Stationnement interdit",
-        "Interdit à tous les véhicules motorisés"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau interdit l'accès à tous les véhicules motorisés.",
-      "image": "./images/no-entry-motor-vehicles.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Route à une seule voie",
+            "Stationnement interdit",
+            "Interdit à tous les véhicules motorisés"
+        ],
+        "correct": 2,
+        "explanation": "Ce panneau interdit l'accès à tous les véhicules motorisés.",
+        "image": "./images/no-entry-motor-vehicles.png"
     }
-  },
-  {
+},
+{
     "id": 148,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Various dangers",
-        "No parking",
-        "No entry"
-      ],
-      "correct": 0,
-      "explanation": "This sign warns of various potential dangers ahead.",
-      "image": "./images/caution-various-dangers.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "Various dangers",
+            "No parking",
+            "No entry"
+        ],
+        "correct": 2,
+        "explanation": "",
+        "image": "./images/no-entry.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Dangers divers",
-        "Stationnement interdit",
-        "Sens interdit"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau signale des dangers divers potentiels sur la route.",
-      "image": "./images/caution-various-dangers.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Dangers divers",
+            "Stationnement interdit",
+            "Sens interdit"
+        ],
+        "correct": 2,
+        "explanation": "",
+        "image": "./images/no-entry.png"
     }
-  },
-  {
+},
+{
     "id": 149,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "No overtaking allowed for trucks",
-        "No overtaking allowed for all kinds of vehicles",
-        "No entry"
-      ],
-      "correct": 1,
-      "explanation": "This sign indicates overtaking is prohibited for all types of vehicles.",
-      "image": "./images/no-overtaking.png"
+        "question": "What does this sign indicate?",
+        "options": [
+            "No overtaking allowed for trucks",
+            "No overtaking allowed for all kinds of vehicles",
+            "No entry"
+        ],
+        "correct": 1,
+        "explanation": "This sign indicates overtaking is prohibited for all types of vehicles.",
+        "image": "./images/no-overtaking.png"
     },
     "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Dépassement interdit pour les camions",
-        "Dépassement interdit pour tous les types de véhicules",
-        "Sens interdit"
-      ],
-      "correct": 1,
-      "explanation": "Ce panneau interdit le dépassement pour tous les types de véhicules.",
-      "image": "./images/no-overtaking.png"
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Dépassement interdit pour les camions",
+            "Dépassement interdit pour tous les types de véhicules",
+            "Sens interdit"
+        ],
+        "correct": 1,
+        "explanation": "Ce panneau interdit le dépassement pour tous les types de véhicules.",
+        "image": "./images/no-overtaking.png"
     }
-  },
-  {
+},
+{
     "id": 150,
     "category": "Signs",
     "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Upper speed limit: 30 km/hour",
-        "Give way - priority road ahead",
-        "Lower speed limit: 80 km/hour"
-      ],
-      "correct": 0,
-      "explanation": "This sign indicates the upper speed limit is 30 km/hour.",
-      "image": "./images/speed-limit-30.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Vitesse maximale: 30 km/h",
-        "Cédez le passage - route prioritaire devant",
-        "Vitesse minimale: 80 km/h"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau indique que la vitesse maximale autorisée est de 30 km/h.",
-      "image": "./images/speed-limit-30.png"
-    }
-  },
-  {
-    "id": 151,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Theatre",
-        "No parking",
-        "You are not allowed to sound your horn"
-      ],
-      "correct": 2,
-      "explanation": "This sign indicates that honking is prohibited in this area.",
-      "image": "./images/no-horn.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Théâtre",
-        "Stationnement interdit",
-        "Klaxonnement interdit"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique qu'il est interdit de klaxonner dans cette zone.",
-      "image": "./images/no-horn.png"
-    }
-  },
-  {
-    "id": 152,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Road reserved for trucks",
-        "Trucks can overtake",
-        "Trucks cannot overtake"
-      ],
-      "correct": 2,
-      "explanation": "This sign indicates trucks cannot overtake.",
-      "image": "./images/no-overtaking-trucks.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Route réservée aux camions",
-        "Dépassement permis aux camions",
-        "Dépassement interdit aux camions"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique que les camions ne peuvent pas dépasser.",
-      "image": "./images/no-overtaking-trucks.png"
-    }
-  },
-  {
-    "id": 153,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Animal carts allowed",
-        "No entry for pedestrians",
-        "No entry for animal carts"
-      ],
-      "correct": 2,
-      "explanation": "This sign indicates that animal carts are not allowed.",
-      "image": "./images/no-entry-animal-carts.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Passage autorisé aux véhicules transportant des animaux",
-        "Passage interdit aux piétons",
-        "Passage interdit aux véhicules transportant des animaux"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique que les véhicules transportant des animaux sont interdits.",
-      "image": "./images/no-entry-animal-carts.png"
-    }
-  },
-  {
-    "id": 154,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "No entry to all types of motor vehicles",
-        "Caution, lane reserved for pedestrians",
-        "No entry for pedestrians"
-      ],
-      "correct": 2,
-      "explanation": "This sign indicates that pedestrians are not allowed.",
-      "image": "./images/no-entry-pedestrians.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Passage interdit aux voitures",
-        "Attention, voie réservée aux piétons",
-        "Passage interdit aux piétons"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique que les piétons ne sont pas autorisés.",
-      "image": "./images/no-entry-pedestrians.png"
-    }
-  },
-  {
-    "id": 155,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Compulsory path for motor vehicles",
-        "Lane reserved for bikes",
-        "No entry for bikes"
-      ],
-      "correct": 2,
-      "explanation": "This sign indicates that bikes are prohibites to enter.",
-      "image": "./images/no-entry-bikes.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Passage obligatoire pour les voitures",
-        "Voie réservée aux deux roues",
-        "Passage interdit aux deux roues"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique que les deux roues sont interdits d'entrer.",
-      "image": "./images/no-entry-bikes.png"
-    }
-  },
-  {
-    "id": 156,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Cycles crossing",
-        "Motorbikes lane",
-        "No entry for motorbikes"
-      ],
-      "correct": 1,
-      "explanation": "This sign indicates that motorbikes are prohibites to enter.",
-      "image": "./images/no-entry-motorbikes.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Voie réservée aux deux roues",
-        "Voie réservée aux deux roues",
-        "Passage interdit aux deux roues"
-      ],
-      "correct": 1,
-      "explanation": "Ce panneau indique que les deux roues sont interdits d'enter.",
-      "image": "./images/no-entry-motorbikes.png"
-    }
-  },
-  {
-    "id": 157,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "No entry for trolleys",
-        "Trolleys cannot be parked here",
-        "Lane reserved for trolleys"
-      ],
-      "correct": 0,
-      "explanation": "This sign indicates trolleys are not allowed.",
-      "image": "./images/no-entry-trolley.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Passage interdit aux poussettes",
-        "Stationnement interdit aux poussettes",
-        "Voie réservée aux poussettes"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau indique que les poussettes sont interdites.",
-      "image": "./images/no-entry-trolley.png"
-    }
-  },
-  {
-    "id": 158,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "No entry to all types of motor vehicles",
-        "No parking",
-        "Road reserved for motor vehicles"
-      ],
-      "correct": 0,
-      "explanation": "This sign prohibits entry to all types of motor vehicles.",
-      "image": "./images/no-entry-motor-vehicles.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Passage interdit aux véhicules de tous genres",
-        "Interdit aux voitures de stationner",
-        "Voie réservée aux voitures"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau interdit l'entrée à tous les véhicules motorisés.",
-      "image": "./images/no-entry-motor-vehicles.png"
-    }
-  },
-  {
-    "id": 159,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "No entry to trucks exceeding 2.3m in height",
-        "No entry for trucks",
-        "No entry to cars exceeding 2.3m in width"
-      ],
-      "correct": 0,
-      "explanation": "This sign indicates that trucks exceeding 2.3m in height are not allowed.",
-      "image": "./images/no-entry-cars-width-230.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Passage interdit aux camions de plus de 2,3 m de longueur",
-        "Passage interdit aux camions",
-        "Passage interdit aux voitures de plus de 2,3 m de largeur"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau interdit les camions de plus de 2,3 m de hauteur.",
-      "image": "./images/no-entry-cars-width-230.png"
-    }
-  },
-  {
-    "id": 160,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "No entry to trucks exceeding 3.5 tons in weight",
-        "No entry to trucks exceeding 3.5 m in height",
-        "Compulsory direction for trucks"
-      ],
-      "correct": 1,
-      "explanation": "This sign prohibits trucks taller than 3.5 meters from entering.",
-      "image": "./images/no-entry-trucks-height-350.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Passage interdit aux camions de plus de 3,5 tonnes",
-        "Passage interdit aux camions de plus de 3,5 m de hauteur",
-        "Direction obligatoire pour les camions"
-      ],
-      "correct": 1,
-      "explanation": "Ce panneau interdit aux camions de plus de 3,5 m de hauteur d'entrer.",
-      "image": "./images/no-entry-trucks-height-350.png"
-    }
-  },
-
-  {
-    "id": 161,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "No entry to trucks carrying more than 6.5 tons of cargo",
-        "No entry to trucks exceeding 10m in height",
-        "Cargo cannot exceed 10m"
-      ],
-      "correct": 0,
-      "explanation": "This sign prohibits trucks carrying more than 6.5 tons of cargo.",
-      "image": "./images/no-entry-trucks-cargo-65.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Passage interdit aux camions transportant plus de 6.5 tonnes de cargaison",
-        "Passage interdit aux camions de plus de 10 m de longueur",
-        "La cargaison ne doit pas dépasser les 10 m en hauteur"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau interdit aux camions transportant plus de 6.5 tonnes de cargaison de passer.",
-      "image": "./images/no-entry-trucks-cargo-65.png"
-    }
-  },
-  {
-    "id": 162,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "No entry to trucks exceeding 7m in height",
-        "No entry to trucks exceeding 7 tons/wheel",
-        "No entry to trucks carrying more than 7 tons of cargo"
-      ],
-      "correct": 2,
-      "explanation": "This sign prohibits trucks carrying more than 7 tons of cargo.",
-      "image": "./images/no-entry-trucks-cargo-7.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Passage interdit aux camions de plus de 7 m de hauteur",
-        "Passage interdit aux camions portant plus de 7 tonnes par pneu",
-        "Passage interdit aux camions transportant plus de 7 tonnes de cargaison"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau interdit aux camions transportant plus de 7 tonnes de cargaison de passer.",
-      "image": "./images/no-entry-trucks-cargo-7.png"
-    }
-  },
-  {
-    "id": 163,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Start of restriction signs",
-        "No speeding",
-        "End of restriction sign"
-      ],
-      "correct": 2,
-      "explanation": "This sign marks the end of all previous restrictions.",
-      "image": "./images/end-restriction.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Début de signalisation restrictive",
-        "Excès de vitesse interdit",
-        "Fin de signalisation restrictive"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique la fin de toutes les restrictions précédentes.",
-      "image": "./images/end-restriction.png"
-    }
-  },
-  {
-    "id": 164,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Speed limit",
-        "Start of speed limit",
-        "End of speed limit"
-      ],
-      "correct": 2,
-      "explanation": "This sign marks the end of a previously indicated speed limit.",
-      "image": "./images/end-speed-limit.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Limite de vitesse",
-        "Début de limite de vitesse",
-        "Fin de limites de vitesse"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique la fin d'une limitation de vitesse.",
-      "image": "./images/end-speed-limit.png"
-    }
-  },
-  {
-    "id": 165,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Turn right",
-        "Compulsory direction to the left",
-        "You cannot turn right"
-      ],
-      "correct": 0,
-      "explanation": "This sign mandates turning right.",
-      "image": "./images/turn-right.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Tourner à droite",
-        "Obligation de tourner à gauche",
-        "Interdit de tourner à droite"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau indique qu'il faut tourner à droite obligatoirement.",
-      "image": "./images/turn-right.png"
-    }
-  },
-  {
-    "id": 166,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Turn left",
-        "You can go straight or turn right",
-        "You cannot turn left"
-      ],
-      "correct": 0,
-      "explanation": "This sign mandates turning left.",
-      "image": "./images/turn-left.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Tourner à gauche",
-        "Obligation d'aller tout droit ou de tourner à droite",
-        "Interdit de tourner à gauche"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau indique qu'il faut tourner à gauche obligatoirement.",
-      "image": "./images/turn-left.png"
-    }
-  },
-  {
-    "id": 167,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "You cannot go right or left",
-        "You must go straight",
-        "You can turn right or left"
-      ],
-      "correct": 2,
-      "explanation": "This sign indicates that you can turn right or left.",
-      "image": "./images/turn-right-or-left.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Interdit de tourner à gauche ou à droite",
-        "Obligation d'aller tout droit",
-        "Il est possible de tourner à gauche ou à droite"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique qu'il est possible de tourner à gauche ou à droite",
-      "image": "./images/turn-right-or-left.png"
-    }
-  },
-  {
-    "id": 168,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Trucks must go right",
-        "You cannot turn left",
-        "You can go straight or turn right"
-      ],
-      "correct": 2,
-      "explanation": "This sign mandates that you can go straight or turn right.",
-      "image": "./images/straight-or-right.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Obligation aux camions de tourner à droite",
-        "Interdit de tourner à gauche",
-        "Il est possible d'aller tout droit ou de tourner à droite"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique que il est possible d'aller tout droit ou de tourner à droite.",
-      "image": "./images/straight-or-right.png"
-    }
-  },
-  {
-    "id": 169,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "You cannot go left",
-        "Compulsory direction to the left",
-        "You can go straight or turn left"
-      ],
-      "correct": 2,
-      "explanation": "This sign indicates that you can go straight or turn left.",
-      "image": "./images/straight-or-left.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Interdit de tourner à gauche",
-        "Passage obligatoire à gauche",
-        "Il est possible d'aller tout droit ou de tourner à gauche"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique qu'il est possible d'aller tout droit ou de tourner à gauche.",
-      "image": "./images/straight-or-left.png"
-    }
-  },
-  {
-    "id": 170,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "You can go right",
-        "Freeway lane",
-        "Compulsory direction to the left"
-      ],
-      "correct": 2,
-      "explanation": "This sign mandates a compulsory turn to the left.",
-      "image": "./images/compulsory-left.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Il est possible de tourner à droite",
-        "Voie principale",
-        "Passage obligatoire à gauche"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique une obligation de tourner à gauche.",
-      "image": "./images/compulsory-left.png"
-    }
-  },{
-    "id": 171,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Compulsory direction to the right",
-        "You cannot turn right",
-        "You must go straight"
-      ],
-      "correct": 0,
-      "explanation": "This sign mandates a compulsory turn to the right.",
-      "image": "./images/compulsory-right.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Passage obligatoire à droite",
-        "Interdit de tourner à droite",
-        "Il est possible d'aller tout droit"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau indique une obligation de tourner à droite.",
-      "image": "./images/compulsory-right.png"
-    }
-  },
-  {
-    "id": 172,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "You cannot turn right or left",
-        "Vehicle can only turn right",
-        "Compulsory direction to the right or the left"
-      ],
-      "correct": 2,
-      "explanation": "This sign mandates a compulsory turn either right or left.",
-      "image": "./images/compulsory-left-or-right.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Interdit de tourner à gauche ou à droite",
-        "Il est possible de tourner à droite",
-        "Passage obligatoire à droite ou à gauche"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique une obligation de tourner soit à droite soit à gauche.",
-      "image": "./images/compulsory-left-or-right.png"
-    }
-  },
-  {
-    "id": 173,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Lane reserved for pedestrians and bicycles",
-        "Lane reserved for bicycles",
-        "End of bicycle track"
-      ],
-      "correct": 2,
-      "explanation": "This sign marks the end of the bicycle track.",
-      "image": "./images/end-bicycle-track.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Voie réservée aux piétons et aux deux roues",
-        "Voie réservée aux deux roues",
-        "Fin de la piste cyclable"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique la fin de la piste cyclable.",
-      "image": "./images/end-bicycle-track.png"
-    }
-  },
-  {
-    "id": 174,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "No entry for pedestrians and bicycles",
-        "Lane reserved for pedestrians and bicycles",
-        "End of bicycle track"
-      ],
-      "correct": 1,
-      "explanation": "This sign indicated that this lane is reserved for pedestrians and bicycles.",
-      "image": "./images/pedestrian-bicycle-lane.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Passage interdit aux piétons et aux deux roues",
-        "Voie réservée uniquement aux piétons et aux deux roues",
-        "Fin de la piste cyclable"
-      ],
-      "correct": 1,
-      "explanation": "Ce panneau indique que la Voie est réservée uniquement aux piétons et aux deux roues.",
-      "image": "./images/pedestrian-bicycle-lane.png"
-    }
-  },
-  {
-    "id": 175,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Compulsory direction to the right",
-        "Traffic direction",
-        "You cannot turn right"
-      ],
-      "correct": 2,
-      "explanation": "This sign mandates that you cannot turn right.",
-      "image": "./images/no-right-turn.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Passage obligatoire à droite",
-        "Sens de circulation",
-        "Interdit de tourner à droite"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique qu'il est interdit de tourne à droite.",
-      "image": "./images/no-right-turn.png"
-    }
-  },
-  {
-    "id": 176,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Compulsory turn",
-        "Traffic direction",
-        "You cannot turn"
-      ],
-      "correct": 2,
-      "explanation": "This sign indicates that you cannot turn.",
-      "image": "./images/no-turn.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Obligation de tourner",
-        "Sens de circulation",
-        "Interdit de tourner"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique une interdiction de tourner.",
-      "image": "./images/no-turn.png"
-    }
-  },
-  {
-    "id": 177,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "End of no bus overtaking zone",
-        "Lane reserved for buses",
-        "No entry to buses"
-      ],
-      "correct": 2,
-      "explanation": "This sign indicated no entry for buses.",
-      "image": "./images/no-entry-bus.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Fin de dépassement interdit aux bus",
-        "Voie réservée aux bus",
-        "Passage interdit aux bus"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique l'interdiction d'entrer pour les bus.",
-      "image": "./images/no-entry-bus.png"
-    }
-  },
-  {
-    "id": 178,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "No entry to trucks",
-        "No entry to trucks exceeding 6.5 tons in weight",
-        "Lane reserved for trucks"
-      ],
-      "correct": 0,
-      "explanation": "This sign prohibits entry to trucks.",
-      "image": "./images/no-entry-trucks.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Passage interdit aux camions",
-        "Passage interdit aux camions dont le poids dépasse 6.5 tonnes",
-        "Voie réservée aux camions"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau interdit le passage aux camions.",
-      "image": "./images/no-entry-trucks.png"
-    }
-  },
-  {
-    "id": 179,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "No entry to trucks carrying more than 6.5 tons of cargo",
-        "Compulsory direction for trucks",
-        "Trucks cannot park here"
-      ],
-      "correct": 0,
-      "explanation": "This sign prohibits trucks carrying more than 6.5 tons of cargo.",
-      "image": "./images/no-entry-trucks-cargo-65.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Passage interdit aux camions dont le poids de la cargaison dépasse les 6.5 tonnes",
-        "Route obligatoire pour les camions",
-        "Stationnement interdit aux camions"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau interdit aux camions transportant plus de 6.5 tonnes de cargaison de passer.",
-      "image": "./images/no-entry-trucks-cargo-65.png"
-    }
-  },
-  {
-    "id": 180,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Compulsory direction for trucks",
-        "No entry for trucks carrying hazardous material",
-        "No entry to trailer trucks"
-      ],
-      "correct": 2,
-      "explanation": "This sign prohibits entry to trailer trucks.",
-      "image": "./images/no-entry-trailer-trucks.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Route obligatoire pour les camions",
-        "Passage interdit aux camions transportant des matières dangereuses",
-        "Passage interdit aux camions remorque"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau interdit le passage interdit aux camions remorque.",
-      "image": "./images/no-entry-trailer-trucks.png"
-    }
-  },
-  {
-    "id": 181,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Agricultural machinery not allowed",
-        "Road reserved for agricultural machinery",
-        "One-minute parking for agricultural machinery"
-      ],
-      "correct": 0,
-      "explanation": "This sign prohibits entry to agricultural machinery.",
-      "image": "./images/no-agricultural-machinery.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Passage interdit aux véhicules agricoles",
-        "Voie réservée aux véhicules agricoles",
-        "Stationnement à durée limitée pour les véhicules agricoles"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau interdit le passage aux véhicules agricoles.",
-      "image": "./images/no-agricultural-machinery.png"
-    }
-  },
-  {
-    "id": 182,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "End of no overtaking zone",
-        "Caution, two-lane road",
-        "End of no overtaking for trucks"
-      ],
-      "correct": 0,
-      "explanation": "This sign marks the end of the no overtaking zone.",
-      "image": "./images/end-no-overtaking.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Fin de la zone \"dépassement interdit\"",
-        "Attention, route à deux voies",
-        "Fin de la zone \"interdit aux camions de dépasser\""
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau indique la fin de la zone d'interdiction de dépassement.",
-      "image": "./images/end-no-overtaking.png"
-    }
-  },
-  {
-    "id": 183,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Trucks only",
-        "End of no overtaking for trucks",
-        "Caution, two lane road"
-      ],
-      "correct": 1,
-      "explanation": "This sign indicates the end of no overtaking for trucks.",
-      "image": "./images/end-no-overtaking-trucks.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Voie réservée aux camions",
-        "Fin de la zone interdit aux camions de dépasser",
-        "Attention, route à deux voies"
-      ],
-      "correct": 1,
-      "explanation": "Ce panneau indique Fin de la zone interdit aux camions de dépasser.",
-      "image": "./images/end-no-overtaking-trucks.png"
-    }
-  },
-  {
-    "id": 184,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "No parking",
-        "No overtaking for all kinds of vehicles",
-        "No entry"
-      ],
-      "correct": 0,
-      "explanation": "This sign prohibits parking.",
-      "image": "./images/no-parking.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Stationnement interdit",
-        "Dépassement interdit aux véhicules de tous genres",
-        "Sens interdit"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau interdit le stationnement.",
-      "image": "./images/no-parking.png"
-    }
-  },
-  {
-    "id": 185,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "No stopping and no parking",
-        "No parking",
-        "No entry"
-      ],
-      "correct": 0,
-      "explanation": "This sign prohibits both stopping and parking.",
-      "image": "./images/no-stopping-no-parking.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Interdit de s'arrêter et de stationner",
-        "Stationnement interdit",
-        "Sens interdit"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau interdit de s'arrêter et de stationner.",
-      "image": "./images/no-stopping-no-parking.png"
-    }
-  },
-  {
-    "id": 186,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "You must go straight",
-        "No parking in this zone",
-        "No entry in this direction"
-      ],
-      "correct": 0,
-      "explanation": "This sign indicates that vehicles must go straight.",
-      "image": "./images/go-straight.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Obligation d'aller tout droit",
-        "Interdit de s'arrêter ici",
-        "Interdit de passer dans cette direction"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau indique une obligation d'aller tout droit.",
-      "image": "./images/go-straight.png"
-    }
-  },
-  {
-    "id": 187,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Direction to the left",
-        "No parking on the left",
-        "You cannot turn left"
-      ],
-      "correct": 0,
-      "explanation": "This sign indicates the direction to the left.",
-      "image": "./images/go-left.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Direction vers la gauche",
-        "Interdit de stationner à gauche",
-        "Interdit de tourner à gauche"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau indique une direction vers la gauche.",
-      "image": "./images/go-left.png"
-    }
-  },
-  {
-    "id": 188,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "No parking on the right",
-        "You cannot turn right",
-        "Direction to the right"
-      ],
-      "correct": 2,
-      "explanation": "This sign indicates the direction to the right.",
-      "image": "./images/go-right.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Interdit de stationner à droite",
-        "Interdit de tourner à droite",
-        "Direction vers la droite"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique une direction vers la droite.",
-      "image": "./images/go-right.png"
-    }
-  },
-  {
-    "id": 189,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Parking zone",
-        "Roundabout ahead",
-        "You cannot turn"
-      ],
-      "correct": 1,
-      "explanation": "This sign indicates a roundabout.",
-      "image": "./images/roundabout.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Zone de stationnement",
-        "Rond point",
-        "Interdit de tourner"
-      ],
-      "correct": 1,
-      "explanation": "Ce panneau indique qu'il y a un rond point.",
-      "image": "./images/roundabout.png"
-    }
-  },
-  {
-    "id": 190,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "You cannot park for more than 30 minutes",
-        "Mandatory upper speed",
-        "Mandatory lower speed"
-      ],
-      "correct": 0,
-      "explanation": "This sign inidicated a mandatory lower speed",
-      "image": "./images/mandatory-lower-speed.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Interdit de stationner pour plus de 30 minutes",
-        "Vitesse maximale obligatoire",
-        "Vitesse minimale obligatoire"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau indique une vitesse minimale obligatoire",
-      "image": "./images/mandatory-lower-speed.png"
-    }
-  },
-  {
-    "id": 191,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Maximum speed: 30 km/h",
-        "You cannot park for more than 30 minutes",
-        "End of mandatory lower speed"
-      ],
-      "correct": 2,
-      "explanation": "This sign indicates the end of mandatory lower speed.",
-      "image": "./images/end-mandatory-lower-speed.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Vitesse maximale : 30 km/heure",
-        "Interdit de stationner pour plus de 30 minutes",
-        "Fin de vitesse minimale obligatoire"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique la fin de vitesse minimale obligatoire.",
-      "image": "./images/end-mandatory-lower-speed.png"
-    }
-  },
-  {
-    "id": 192,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Caution, slippery road ahead",
-        "Tyre chains must be removed",
-        "Vehicles equipped with metal chains only"
-      ],
-      "correct": 2,
-      "explanation": "This sign indicates that only vehicles equipped with metal chains can pass.",
-      "image": "./images/only-vehicles-metal-chains.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Attention, route glissante",
-        "Enlever les chaînes à neige",
-        "Véhicules équipés de chaînes à neige uniquement"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique que seules véhicules équipés de chaînes à neige peuvent passer.",
-      "image": "./images/only-vehicles-metal-chains.png"
-    }
-  },
-  {
-    "id": 193,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Park",
-        "No entry for pedestrians",
-        "Lane reserved for pedestrians"
-      ],
-      "correct": 2,
-      "explanation": "This sign indicates a lane reserved for pedestrians.",
-      "image": "./images/pedestrian-lane.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Parc",
-        "Passage interdit aux piétons",
-        "Voie réservée aux piétons"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique une voie réservée aux piétons.",
-      "image": "./images/pedestrian-lane.png"
-    }
-  },
-  {
-    "id": 194,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "End of pedestrian lane",
-        "Lane reserved for pedestrians",
-        "Upper ground pedestrian crossing"
-      ],
-      "correct": 0,
-      "explanation": "This sign marks the end of a pedestrian lane.",
-      "image": "./images/end-pedestrian-lane.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Fin de la voie réservée aux piétons",
-        "Voie réservée aux piétons",
-        "Passage piéton au-dessus de la route"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau indique la fin de la voie réservée aux piétons.",
-      "image": "./images/end-pedestrian-lane.png"
-    }
-  },
-  {
-    "id": 195,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Bicycle track",
-        "No parking for bicycles",
-        "No entry for bicycles"
-      ],
-      "correct": 0,
-      "explanation": "This sign indicates a bicycle track.",
-      "image": "./images/bicycles-tracks.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Piste cyclable",
-        "Stationnement interdit aux deux roues",
-        "Passage interdit aux deux roues"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau indique une piste cyclable.",
-      "image": "./images/bicycles-tracks.png"
-    }
-  },
-  {
-    "id": 196,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Compulsory direction to the left",
-        "No parking on the left",
-        "Cannot turn left"
-      ],
-      "correct": 2,
-      "explanation": "This sign indicates that you cannot turn left.",
-      "image": "./images/no-left-turn.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Obligation de tourner à gauche",
-        "Interdit de stationner à gauche",
-        "Interdit de tourner à gauche"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique une interdiction de tourner à gauche.",
-      "image": "./images/no-left-turn.png"
-    }
-  },
-  {
-    "id": 197,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Hospital",
-        "Two-lane road connected to a bridge",
-        "Caution, moving bridge ahead"
-      ],
-      "correct": 0,
-      "explanation": "This sign indicates a hospital nearby.",
-      "image": "./images/hospital.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Hôpital",
-        "Route à deux voies connectée à un pont",
-        "Attention, pont mobile"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau indique un hôpital à proximité.",
-      "image": "./images/hospital.png"
-    }
-  },
-  {
-    "id": 198,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "End of pedestrian lane",
-        "Caution, pedestrian crossing",
-        "Caution, no entry to pedestrians"
-      ],
-      "correct": 1,
-      "explanation": "This sign marks pedestrian crossing.",
-      "image": "./images/caution-pedestrians.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Fin de la voie réservée aux piétons",
-        "Attention, passage piéton",
-        "Attention, passage interdit aux piétons"
-      ],
-      "correct": 1,
-      "explanation": "Ce panneau indique un passage piétons.",
-      "image": "./images/caution-pedestrians.png"
-    }
-  },
-  {
-    "id": 199,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "No entry for bicycles",
-        "Lane reserved for bikes",
-        "Bicycle track"
-      ],
-      "correct": 1,
-      "explanation": "This sign indicates a lane reserved for bikes.",
-      "image": "./images/bicycle-lane.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Passage interdit aux deux roues",
-        "Voie réservée aux deux roues",
-        "Piste cyclable"
-      ],
-      "correct": 1,
-      "explanation": "Ce panneau indique uen voie réservée aux deux roues.",
-      "image": "./images/bicycle-lane.png"
-    }
-  },
-  {
-    "id": 200,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Lanes merge ahead",
-        "Merger with a freeway ahead",
-        "Dead end road"
-      ],
-      "correct": 2,
-      "explanation": "This sign indicates a dead end road.",
-      "image": "./images/dead-end.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Point de rencontre de deux voies",
-        "Chemin menant à une route principale",
-        "Impasse"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique une impasse.",
-      "image": "./images/dead-end.png"
-    }
-  },{
-    "id": 201,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Caution, airport runway",
-        "Caution, bridge",
-        "Highway"
-      ],
-      "correct": 2,
-      "explanation": "This sign indicates a highway.",
-      "image": "./images/highway.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Attention, piste de décollage et d'atterrissage",
-        "Attention, pont",
-        "Autoroute"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau imdique une autoroute.",
-      "image": "./images/highway.png"
-    }
-  },
-  {
-    "id": 202,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Caution, narrow road ahead",
-        "Bridge above the road",
-        "End of freeway"
-      ],
-      "correct": 2,
-      "explanation": "This sign marks the end of the freeway.",
-      "image": "./images/end-highway.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Attention, route étroite",
-        "Pont au-dessus de la route",
-        "Fin de l'autoroute"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau marque la fin de l'autoroute.",
-      "image": "./images/end-highway.png"
-    }
-  },
-  {
-    "id": 203,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Caution, rough road ahead",
-        "Tunnel",
-        "Bridge"
-      ],
-      "correct": 1,
-      "explanation": "This sign warns drivers of a tunnel.",
-      "image": "./images/tunnel.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Attention, route rugueuse",
-        "Tunnel",
-        "Pont"
-      ],
-      "correct": 1,
-      "explanation": "Ce panneau avertit d'un tunnel.",
-      "image": "./images/tunnel.png"
-    }
-  },
-  {
-    "id": 204,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "For doctors only",
-        "Parking for the disabled",
-        "Help center"
-      ],
-      "correct": 2,
-      "explanation": "This sign marks the area for help center.",
-      "image": "./images/help-center.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Réservé aux médecins",
-        "Zone de stationnement réservée aux handicapés",
-        "Centre d'assistance"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau marque un center d'assistance.",
-      "image": "./images/help-center.png"
-    }
-  },
-  {
-    "id": 205,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "No parking for the disabled",
-        "One-minute parking",
-        "Parking reserved for the disabled"
-      ],
-      "correct": 2,
-      "explanation": "This sign indicates parking reserved for the disabled.",
-      "image": "./images/disabled-parking.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Stationnement interdit aux handicapés",
-        "Stationnement à durée limitée",
-        "Zone de stationnement réservée aux handicapés"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau réserve le stationnement aux personnes handicapées.",
-      "image": "./images/disabled-parking.png"
-    }
-  },
-  {
-    "id": 206,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Parking",
-        "One-minute parking",
-        "Parking not allowed"
-      ],
-      "correct": 0,
-      "explanation": "This sign indicates a parking area.",
-      "image": "./images/parking.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Zone de stationnement",
-        "Stationnement à durée limitée",
-        "Stationnement interdit"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau indique une zone de stationnement.",
-      "image": "./images/parking.png"
-    }
-  },
-  {
-    "id": 207,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Parking for all - not more than two taxi cars allowed",
-        "Taxis not allowed to park here",
-        "Taxi stop"
-      ],
-      "correct": 2,
-      "explanation": "This sign indicates parking allowed for all vehicles but limited to two taxis.",
-      "image": "./images/taxi.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Zone de stationnement pour tous genres de véhicules - deux voitures taxi au maximum",
-        "Stationnement interdit aux taxis",
-        "Zone de stationnement pour taxis"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique une zone de stationnement pour tous avec limitation à deux taxis.",
-      "image": "./images/taxi.png"
-    }
-  },
-  {
-    "id": 208,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Remove immediately",
-        "Inquiries",
-        "Police"
-      ],
-      "correct": 2,
-      "explanation": "This sign instructs the direction to the police.",
-      "image": "./images/police.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Enlèvement immédiat",
-        "Information",
-        "Police"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique la direction enver le centre de police.",
-      "image": "./images/police.png"
-    }
-  },
-  {
-    "id": 209,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Internet Center",
-        "Petrol station",
-        "Inquiries"
-      ],
-      "correct": 2,
-      "explanation": "This sign points to an inquiries center.",
-      "image": "./images/inquiries.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Centre d'internet",
-        "Station service",
-        "Information"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique un centre d'information.",
-      "image": "./images/inquiries.png"
-    }
-  },
-  {
-    "id": 210,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Municipality police",
-        "Parking reserved for the police",
-        "Fire Brigade"
-      ],
-      "correct": 0,
-      "explanation": "This sign indicates the presence or parking for municipal police.",
-      "image": "./images/municipality-police.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Police municipale",
-        "Zone de stationnement pour police",
-        "Pompiers"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau indique la police municipale ou son stationnement.",
-      "image": "./images/municipality-police.png"
-    }
-  },
-  {
-    "id": 211,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Freeway",
-        "Dangerous intersection ahead",
-        "Indirect turn to the left"
-      ],
-      "correct": 0,
-      "explanation": "This sign indicates of a freeway ahead.",
-      "image": "./images/freeway.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Voie principale",
-        "Intersection dangereuse",
-        "Virage indirect vers la gauche"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau indique une voie principale.",
-      "image": "./images/freeway.png"
-    }
-  },
-  {
-    "id": 212,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Parking",
-        "One-minute parking",
-        "No parking"
-      ],
-      "correct": 0,
-      "explanation": "This sign indicates a parking area.",
-      "image": "./images/parking.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Zone de stationnement",
-        "Stationnement à durée limitée",
-        "Stationnement interdit"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau indique une zone de stationnement.",
-      "image": "./images/parking.png"
-    }
-  },
-  {
-    "id": 213,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Hotel",
-        "Restaurant",
-        "Repair Center"
-      ],
-      "correct": 0,
-      "explanation": "This sign indicates the location of a hotel.",
-      "image": "./images/hotel.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Hôtel",
-        "Restaurant",
-        "Garage"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau indique l'emplacement d'un hôtel.",
-      "image": "./images/hotel.png"
-    }
-  },
-  {
-    "id": 214,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Restaurant",
-        "Inquiries",
-        "Refreshments"
-      ],
-      "correct": 0,
-      "explanation": "This sign indicates a restaurant nearby.",
-      "image": "./images/restaurant.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Restaurant",
-        "Information",
-        "Rafraîchissements"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau indique un restaurant à proximité.",
-      "image": "./images/restaurant.png"
-    }
-  },
-  {
-    "id": 215,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Petrol station",
-        "Public phone",
-        "Restaurant"
-      ],
-      "correct": 1,
-      "explanation": "This sign indicates a publc phone.",
-      "image": "./images/public-phone.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Station service",
-        "Téléphone publique",
-        "Restaurant"
-      ],
-      "correct": 1,
-      "explanation": "Ce panneau indique un téléphone publique.",
-      "image": "./images/public-phone.png"
-    }
-  },
-  {
-    "id": 216,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Petrol station",
-        "Repair Center",
-        "Restaurant"
-      ],
-      "correct": 0,
-      "explanation": "This sign indicates a petrol station.",
-      "image": "./images/petrol-station.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Station service",
-        "Garage",
-        "Restaurant"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau indique une station-service.",
-      "image": "./images/petrol-station.png"
-    }
-  },
-  {
-    "id": 217,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Lane reserved for buses",
-        "Buses are not allowed to stop here",
-        "Bus parking"
-      ],
-      "correct": 2,
-      "explanation": "This sign indicates a zone for bus parking.",
-      "image": "./images/bus-parking.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Voie réservée aux bus",
-        "Stationnement interdit aux bus",
-        "Zone de stationnement pour bus"
-      ],
-      "correct": 2,
-      "explanation": "Ce panneau indique une zone de stationnement pour bus.",
-      "image": "./images/bus-parking.png"
-    }
-  },
-  {
-    "id": 218,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "No parking",
-        "Help Center",
-        "Camping & camping cars zone"
-      ],
-      "correct": 0,
-      "explanation": "This sign indicates no parking.",
-      "image": "./images/no-parking.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Stationnement interdit",
-        "Centre de secours",
-        "Zone de camping et camping cars"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau indique une interdiction de stationner.",
-      "image": "./images/no-parking.png"
-    }
-  },
-  {
-    "id": 219,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Bend ahead",
-        "Reduce Speed",
-        "Indirect bend to the left"
-      ],
-      "correct": 0,
-      "explanation": "This sign warns of a bend ahead.",
-      "image": "./images/bend-ahead.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Virage",
-        "Ralentissez",
-        "Virage indirect vers la gauche"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau avertit d'un virage à venir.",
-      "image": "./images/bend-ahead.png"
-    }
-  },
-  {
-    "id": 220,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Reduce Speed",
-        "Indirect bend to the left",
-        "Bend ahead"
-      ],
-      "correct": 0,
-      "explanation": "This sign instructs drivers to reduce speed.",
-      "image": "./images/reduce-speed.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Ralentissez",
-        "Virage indirect vers la gauche",
-        "Virage"
-      ],
-      "correct": 0,
-      "explanation": "Ce panneau demande de ralentir.",
-      "image": "./images/reduce-speed.png"
-    }
-  },
-  {
-    "id": 221,
-    "category": "Signs",
-    "english": {
-      "question": "What does this sign indicate?",
-      "options": [
-        "Caution, right bend ahead",
-        "Caution, road bumps ahead",
-        "Caution, uneven roads ahead"
-      ],
-      "correct": 1,
-      "explanation": "This sign warns of bumps ahead.",
-      "image": "./images/caution-bumps.png"
-    },
-    "french": {
-      "question": "Que signifie ce panneau ?",
-      "options": [
-        "Attention, virage à droite",
-        "Attention, casse-vitesse",
-        "Attention, abaissement de la route"
-      ],
-      "correct": 1,
-      "explanation": "Ce panneau avertit d'un abaissement de la route.",
-      "image": "./images/caution-bumps.png"
-    }
-  },  
-    {
+        "question": "What does this sign indicate?",
+        "options": [
+            "Upper speed limit: 30 km/hour",
+            "Give way - priority road ahead",
+            "Lower speed limit: 80 km/hour"
+        ],
+        "correct": 0,
+        "explanation": "This sign indicates the upper speed limit is 30 km/hour.",
+        "image": "./images/speed-limit-30.png"
+    },
+    "french": {
+        "question": "Que signifie ce panneau ?",
+        "options": [
+            "Vitesse maximale: 30 km/h",
+            "Cédez le passage - route prioritaire devant",
+            "Vitesse minimale: 80 km/h"
+        ],
+        "correct": 0,
+        "explanation": "Ce panneau indique que la vitesse maximale autorisée est de 30 km/h.",
+        "image": "./images/speed-limit-30.png"
+    }
+},
+{
     "id": 222,
     "category": "Safety",
     "english": {
@@ -5762,11 +3837,11 @@ window.questions = [
         "image": null
         },
         "french": {
-        "question": "Quand la voie est délimitée par une ligne continue ou autres séparateurs de voies, le conducteur :",
+        "question": "Quand la voie est délimitée par une ligne continue, ou par autres séparateurs de voies, le conducteur",
         "options": [
-                "doit conduire dans l'autre sens",
+                "doit conduire dans lautre sens",
                 "franchir ou chevaucher cette ligne",
-                "ne doit pas franchir ni chevaucher cette ligne ou ces séparateurs de voies"
+                "Ne doit pas franchir ni chevaucher cette ligne ou ces séparateurs de voies"
             ],
         "correct":2,
         "explanation": "Franchir une ligne continue ou un séparateur est interdit.",
@@ -5788,10 +3863,10 @@ window.questions = [
         "image": null
         },
         "french": {
-        "question": "Lorsque le flux de circulation est normal, le conducteur doit :",
+        "question": "Lorsque le flux de circulation est normal, le conducteur doit:",
         "options": [
                 "Rouler à gauche",
-                "Franchir les lignes de séparation des voies pour dépasser les autres véhicules",
+                "Franchir les lignes de séparation des voies pour dépasser les autre véhicules",
                 "Rouler à droite"
             ],
         "correct":2,
@@ -5799,31 +3874,31 @@ window.questions = [
         "image": null
         }
     },
-   {
-  "id": 224,
-  "category": "Safety",
-  "english": {
-    "question": "If the Lane is marked with a solid line and a broken line, which one of the following statements is correct?",
-    "options": [
-      "The driver may change lanes if the broken line is to the left",
-      "The driver may change lanes if the solid line is to the left",
-      "The driver may not change lanes if the solid line is to the left"
-    ],
-    "correct": 1,
-    "explanation": "Solid line to your side means no lane change.",
-    "image": null
-  },
-  "french": {
-    "question": "Quand la voie est délimitée par deux lignes adjacentes, lune continue et lautre discontinue (pointillée):",
-    "options": [
-      "Il est permis au conducteur de franchir la ligne discontinue si cette ligne est directement à sa gauche",
-      "Il nest pas permis au conducteur de franchir la ligne discontinue si cette ligne est directement à sa gauche",
-      "Il nest pas permis au conducteur de franchir la ligne continue si cette ligne est directement à sa gauche"
-    ],
-    "correct": 1,
-    "explanation": "La ligne continue du côté du conducteur interdit de changer de voie.",
-    "image": null
-  }
+    {
+    "id": 224,
+    "category": "Safety",
+    "english": {
+        "question": "If the Lane is marked with a solid line and a broken line, which one of the following statements is correct?",
+        "options": [
+            "The driver may change lanes if the broken line is to the left",
+            "The driver may change lanes if the solid line is to the left",
+            "The driver may not change lanes if the solid line is to the left"
+        ],
+        "correct": 1,
+        "explanation": "Solid line to your side means no lane change.",
+        "image": null
+    },
+    "french": {
+        "question": "Quand la voie est délimitée par deux lignes adjacentes, lune continue et lautre discontinue (pointillée):",
+        "options": [
+            "Il est permis au conducteur de franchir la ligne discontinue si cette ligne est directement à sa gauche",
+            "Il nest pas permis au conducteur de franchir la ligne discontinue si cette ligne est directement à sa gauche",
+            "Il nest pas permis au conducteur de franchir la ligne continue si cette ligne est directement à sa gauche"
+        ],
+        "correct": 1,
+        "explanation": "La ligne continue du côté du conducteur interdit de changer de voie.",
+        "image": null
+    }
 },
     {
     "id": 225,
@@ -5840,11 +3915,11 @@ window.questions = [
         "image": null
         },
         "french": {
-        "question": "La chaussée sert à :",
+        "question": "La chaussée sert à:",
         "options": [
-                "Stationner le véhicule là où c'est permis",
+                "Stationner le véhicule là où cest permis",
                 "Ranger de côté toute chose qui empêche la circulation sur la route",
-                "La circulation des piétons, poussettes, personnes malades et handicapées"
+                "La circulation des piétions, poussettes, personnes malades et handicapées"
             ],
         "correct":2,
         "explanation": "La chaussée est destinée à l'usage des piétons et des personnes à mobilité réduite.",
@@ -5866,10 +3941,10 @@ window.questions = [
         "image": null
         },
         "french": {
-        "question": "Un conducteur qui veut changer drastiquement de vitesse ou de direction doit :",
+        "question": "Un conducteur qui veut changer drastiquement de vitesse ou de direction doit:",
         "options": [
-                "S'assurer qu'il peut le faire sans danger et donner un signal",
-                "Franchir la ligne continue si elle est à sa gauche",
+                "Sassurer quil peut le faire sans danger et donner un signal",
+                "Franchir la ligne continue si cette ligne est directement à sa gauche",
                 "Franchir la ligne discontinue sans donner un signal"
             ],
         "correct":0,
@@ -5892,10 +3967,10 @@ window.questions = [
         "image": null
         },
         "french": {
-        "question": "Le conducteur ne doit pas freiner brusquement, sauf :",
+        "question": "Le conducteur ne doit pas freiner bruquement, sauf",
         "options": [
                 "Pour éviter un danger",
-                "Pour s'arrêter",
+                "Pour sarrêter",
                 "Pour essayer les freins"
             ],
         "correct":0,
@@ -5918,11 +3993,11 @@ window.questions = [
         "image": null
         },
         "french": {
-        "question": "Le conducteur doit rouler :",
+        "question": "Le conducteur doit rouler:",
         "options": [
-                "À gauche, quand un autre conducteur est en train de le dépasser",
-                "À gauche, quand un autre véhicule se dirige vers lui dans l'autre sens",
-                "À droite, quand un autre véhicule se dirige vers lui dans l'autre sens"
+                "A gauche, quand un autre conducteur est en train de le dépasser",
+                "A gauche, quand un autre véhicule se dirige vers lui dans lautre sens",
+                "A droite, quand un autre véhicule se dirige vers lui dans lautre sens"
             ],
         "correct":2,
         "explanation": "Le conducteur doit toujours rester à droite en croisant un véhicule.",
@@ -5944,9 +4019,9 @@ window.questions = [
         "image": null
         },
         "french": {
-        "question": "Il est interdit au conducteur de :",
+        "question": "Il est interdit au conducteur de:",
         "options": [
-                "Circuler à droite, quand un autre véhicule se dirige vers lui de l'autre sens",
+                "Circuler à droite, quand un autre véhicule se dirige vers lui de lautre sens",
                 "Dépasser les convois militaires, policiers, ou autres qui sont en état de circulation",
                 "Dépasser un autre véhicule par la gauche quand la visibilité est bonne"
             ],
@@ -5970,7 +4045,7 @@ window.questions = [
         "image": null
         },
         "french": {
-        "question": "Il est interdit au conducteur de :",
+        "question": "Il est interdit au conducteur de:",
         "options": [
                 "Rouler lentement sur le côté gauche de la route",
                 "Circuler dans la direction indiquée",
@@ -5996,9 +4071,9 @@ window.questions = [
         "image": null
         },
         "french": {
-        "question": "Il est interdit au conducteur de :",
+        "question": "Il est interdit au conducteur de:",
         "options": [
-                "S'assurer qu'il peut effectuer le dépassement sans aucun danger pour lui ou pour autrui",
+                "Sassurer quil peut effectuer le dépassement sans aucun danger pour lui ou pour autrui",
                 "Rouler dans le sens indiqué",
                 "Faire demi-tour au milieu de la route dans une zone peuplée"
             ],
@@ -6022,9 +4097,9 @@ window.questions = [
         "image": null
         },
         "french": {
-        "question": "Il est interdit au conducteur de :",
+        "question": "Il est interdit au conducteur de:",
         "options": [
-                "S'assurer qu'il peut effectuer le dépassement sans aucun danger pour lui ou pour autrui",
+                "Sassurer quil peut effectuer le dépassement sans aucun danger pour lui ou pour autrui",
                 "Rouler dans le sens indiqué",
                 "Rouler dans un sens autre que le sens indiqué"
             ],
@@ -6048,10 +4123,10 @@ window.questions = [
         "image": null
         },
         "french": {
-        "question": "Il est interdit au conducteur de :",
+        "question": "Il est interdit au conducteur de:",
         "options": [
                 "Rouler à droite",
-                "S'assurer qu'il peut effectuer le dépassement sans aucun danger pour lui ou pour autrui",
+                "Sassurer quil peut effectuer le dépassement sans aucun danger pour lui ou pour autrui",
                 "Laver son véhicule sur la route"
             ],
         "correct":2,
@@ -6074,11 +4149,10 @@ window.questions = [
         "image": null
         },
         "french": {
-        "question": "Le conducteur :",
+        "question": "Le conducteur doit ralentir ou même sarrêter quand les conditions de la circulation le nécessitent, ou quand la visibilité nest pas bonne",
         "options": [
-                "Doit ralentir ou même s'arrêter quand les conditions de la circulation le nécessitent, ou quand la visibilité n'est pas bonne",
-                "Ne doit pas prendre en considération l'état de la route ni la densité du trafic sur la route",
-                "Doit accélérer quand la visibilité n'est pas bonne"
+                "ne doit pas prendre en considération létat de la route et ni la densité du trafic sur la route",
+                "doit accélérer quand la visibilité nest pas bonne"
             ],
         "correct":0,
         "explanation": "Le conducteur doit adapter sa conduite aux conditions de circulation.",
@@ -6100,11 +4174,11 @@ window.questions = [
         "image": null
         },
         "french": {
-        "question": "Le conducteur doit :",
+        "question": "Le conducteur doit:",
         "options": [
                 "Dépasser par la gauche",
-                "Dépasser par la droite sur les routes à voie unique",
-                "Rouler à gauche"
+                "Dépasser par la doite sur les routes à voie unique",
+                "Rouler à droite"
             ],
         "correct":0,
         "explanation": "Le dépassement se fait généralement par la gauche.",
@@ -6115,7 +4189,7 @@ window.questions = [
     "id": 236,
     "category": "Safety",
     "english": {
-        "question": "When a driver is passing a vehicle, the driver should:",
+        "question": "When a driver is passing a vehicle, the driver should (you're the one being overtaken):",
         "options": [
                 "Keep to the middle if it is a single lane road",
                 "Keep to the left side of the road as much as possible with other road users around",
@@ -6126,7 +4200,7 @@ window.questions = [
         "image": null
         },
         "french": {
-        "question": "En cas de croisement, le conducteur doit :",
+        "question": "En cas de croisement, le conducteur doit:",
         "options": [
                 "Circuler au milieu de la route sur les routes à voie unique",
                 "Conserver la gauche autant que possible",
@@ -6152,11 +4226,11 @@ window.questions = [
         "image": null
         },
         "french": {
-        "question": "Avant d'effectuer un dépassement, le conducteur :",
+        "question": "Avant deffectuer un dépassement, le conducteur",
         "options": [
                 "Ne doit pas respecter les pratiques de conduite dans les zones peuplées",
                 "Peut se lancer même si un conducteur derrière lui a initié un dépassement lui aussi",
-                "Doit s'assurer que les conducteurs derrière lui n'ont pas initié un dépassement eux aussi"
+                "Doit sassurer que les conducteurs derrière lui nont pas initié un dépassement eux aussi"
             ],
         "correct":2,
         "explanation": "Le conducteur doit vérifier que personne d'autre n'est déjà en train de dépasser.",
@@ -6178,11 +4252,11 @@ window.questions = [
         "image": null
         },
         "french": {
-        "question": "Avant d'effectuer un dépassement, le conducteur :",
+        "question": "Avant deffectuer un dépassement, le conducteur:",
         "options": [
-                "A la priorité d'effectuer son dépassement, même si le conducteur derrière lui a initié un dépassement lui aussi",
-                "N'est pas obligé de donner un signal au conducteur qui se trouve derrière lui",
-                "Doit donner un signal au conducteur qu'il voudrait dépasser"
+                "A la priorité deffectuer son dépassement, même si le conducteur derrière lui a initié un dépassement lui aussi",
+                "Nest pas obligé de donner un signal au conducteur qui se trouve derrière lui",
+                "Doit donner un signal au conducteur quil voudrait dépasser"
             ],
         "correct":2,
         "explanation": "Le conducteur doit toujours avertir avant de dépasser.",
@@ -6204,11 +4278,11 @@ window.questions = [
         "image": null
         },
         "french": {
-        "question": "En cas de dépassement, le conducteur :",
+        "question": "En cas de dépassement, le conducteur:",
         "options": [
-                "N'est pas obligé de rester sur la droite juste après le dépassement",
-                "Peut circuler au milieu de la route même s'il dérange les conducteurs qui circulent dans l'autre sens",
-                "Peut circuler sur le côté gauche de la route, à condition de ne pas déranger les conducteurs qui circulent dans l'autre sens"
+                "Nest pas obligé de rester sur la droite juste après le dépassement",
+                "Peut circuler au milieu de la route même sil dérange les conducteurs qui circulent dans lautre sens",
+                "Peut circuler sur le côté gauche de la route, à condition de ne pas déranger les conducteurs qui circulent dans lautre sens"
             ],
         "correct":2,
         "explanation": "Le dépassement doit être effectué à gauche sans gêner les véhicules venant en sens inverse.",
@@ -6230,11 +4304,11 @@ window.questions = [
         "image": null
         },
         "french": {
-        "question": "Exceptionnellement, il est permis d'effectuer un dépassement par la droite :",
+        "question": "Exceptionellement, il est permis deffectuer un dépassement par la droite:",
         "options": [
-                "Si le conducteur a donné un signal qu'il voudrait prendre la droite",
-                "Il est interdit d'effectuer un dépassement par la droite",
-                "Sur une route à plusieurs voies (plus que deux), à condition que le conducteur sassure que cette manoeuvre est sans risque et sans gêne pour les autres "
+                "Si le conducteur a donné un signal quil voudrait prendre la droite",
+                "Il est interdit deffectuer un dépassement par la droite",
+                "sur une route à plusieurs voies (plus que deux), à condition que le conducteur sassure que cette manoeuvre est sans risque et sans gêne pour les autres"
               ],
         "correct":2,
         "explanation": "Le dépassement par la droite est autorisé uniquement sur routes larges et sans danger.",
@@ -6245,592 +4319,20 @@ window.questions = [
     "id": 241,
     "category": "Safety",
     "english": {
-        "question": "It is prohibited to overtake:",
+        "question": "It is forbidden to overtake:",
         "options": [
-                "A vehicle from the left, if the road is marked with broken lines",
-                "If the road is broken into multiple lanes with broken lines",
-                "On bends"
-            ],
-        "correct":2,
-        "explanation": "Overtaking on bends is dangerous due to limited visibility.",
-        "image": null
-        },
-        "french": {
-        "question": "Il est interdit d'effectuer un dépassement :",
-        "options": [
-                "Par la gauche quand la route est marquée par une ligne discontinue",
-                "Si la route est divisée en plusieurs voies par des lignes discontinues",
-                "Dans les virages"
-            ],
-        "correct":2,
-        "explanation": "Le dépassement est interdit dans les virages à cause de la mauvaise visibilité.",
-        "image": null
-        }
-    },
-    {
-    "id": 242,
-    "category": "Safety",
-    "english": {
-        "question": "It is prohibited to overtake:",
-        "options": [
-                "On bridges and in tunnels",
-                "On single-lane roads",
-                "From the right, whatever the case may be"
-            ],
-        "correct":0,
-        "explanation": "Bridges and tunnels are unsafe places to overtake.",
-        "image": null
-        },
-        "french": {
-        "question": "Il est interdit d'effectuer un dépassement :",
-        "options": [
-                "Sur les ponts et dans les tunnels",
-                "Sur les routes à voie unique",
-                "Par la droite dans tous les cas"
-            ],
-        "correct":0,
-        "explanation": "Le dépassement est interdit sur les ponts et dans les tunnels.",
-        "image": null
-        }
-    },
-    {
-    "id": 243,
-    "category": "Safety",
-    "english": {
-        "question": "It is prohibited to overtake:",
-        "options": [
-                "In case vehicles have stopped because of a traffic obstruction or a sign to do so",
-                "If the left side of the road will be clear after the overtake",
-                "If the vehicle you are overtaking is traveling on the right side of the road"
-            ],
-        "correct":0,
-        "explanation": "You must not overtake when traffic is stopped due to an obstruction or stop signal.",
-        "image": null
-        },
-        "french": {
-        "question": "Il est interdit d'effectuer un dépassement :",
-        "options": [
-                "Si plusieurs véhicules sont arrêtés en raison d'une entrave à la circulation ou d'un signal d'arrêt",
-                "Si le côté gauche de la route sera libre après le dépassement",
-                "Si le véhicule que le conducteur voudrait dépasser circule du côté droit de la route"
-            ],
-        "correct":0,
-        "explanation": "Le dépassement est interdit en cas d'arrêt collectif dû à une entrave ou un signal.",
-        "image": null
-        }
-    },
-    {
-  "id": 244,
-  "category": "Safety",
-  "english": {
-    "question": "It is prohibited to overtake:",
-    "options": [
-      "When the width of the road make for a very easy and safe overtake",
-      "If the road is broken into multiple lanes with broken lines",
-      "At the top edge of ascents, when there is not enough visibility ahead, and when the left side of the road will be clear after the takeover"
-    ],
-    "correct": 2,
-    "explanation": null,
-    "image": null
-  },
-  "french": {
-    "question": "Il est interdit deffectuer un dépassement:",
-    "options": [
-      "Si la largeur de la route est suffisante pour effectuer le dépassement facilement et sans danger",
-      "Si les voies de la route sont séparées par des lignes discontinues",
-      "Au sommet dune montée, lorsque la visibilité nest pas assez bonne, pourvu que le côté gauche de la route soit libre"
-    ],
-    "correct": 2,
-    "explanation": null,
-    "image": null
-  }
-},
-
-   {
-  "id": 245,
-  "category": "Safety",
-  "english": {
-    "question": "If a police car, ambulance, or fire truck gives a signal of approaching, other road users should:",
-    "options": [
-      "Increase their speed so as to ease the movement of such vehicle",
-      "Reduce their speed, and if need be, stop or move aside so as to ease the movemen of such vehicle",
-      "Stop immediately where they are so as to ease the movement of such vehicle"
-    ],
-    "correct": 1,
-    "explanation": null,
-    "image": null
-  },
-  "french": {
-    "question": "Si une voiture de police, une ambulance ou un camion de pompiers, donne un avertissment quil sapproche, les usagers des la route doivent:",
-    "options": [
-      "Accélérer pour faciliter le passage de ce véhicule",
-      "Ralentir, ou même sarrêter de côté pour faciliter le passage de ce véhicule",
-      "Sarrêter immédiatement là où ils se trouvent pour faciliter le passage de de ce véhicule"
-    ],
-    "correct": 1,
-    "explanation": null,
-    "image": null
-  }
-},
-{
-  "id": 246,
-  "category": "Safety",
-  "english": {
-    "question": "It is prohibited to overtake:",
-    "options": [
-      "If the road is broken into multiple lanes with broken lines",
-      "On narrow or steep mountain road",
-      "On wide roads"
-    ],
-    "correct": 1,
-    "explanation": null,
-    "image": null
-  },
-  "french": {
-    "question": "Il est interdit deffectuer un dépassement:",
-    "options": [
-      "Si les voies de la route sont séparées par des lignes discontinues",
-      "Sur les routes montagnardes, étroites, ou à forte pente",
-      "Sur les routes larges"
-    ],
-    "correct": 1,
-    "explanation": null,
-    "image": null
-  }
-},
-{
-  "id": 247,
-  "category": "Safety",
-  "english": {
-    "question": "On approaching an intersection, the driver should:",
-    "options": [
-      "Keep moving without checking first that the road is clear",
-      "Keep to the right side of the road",
-      "Check that the road he is about to cross is clear"
-    ],
-    "correct": 2,
-    "explanation": null,
-    "image": null
-  },
-  "french": {
-    "question": "A lapproche dune intersection, le conducteur doit:",
-    "options": [
-      "Poursuivre son chemin sans vérifier sil y a dautres véhicules sur la route",
-      "Prendre sa droite",
-      "Vérifier que la route quil désire croiser est libre"
-    ],
-    "correct": 2,
-    "explanation": null,
-    "image": null
-  }
-},
-{
-  "id": 248,
-  "category": "Safety",
-  "english": {
-    "question": "A driver who is about to leave the road he is on to another road on the right should:",
-    "options": [
-      "Tilt a little to the left but remain on the road",
-      "Keep to the left side of the road",
-      "Keep to the right side of the road"
-    ],
-    "correct": 2,
-    "explanation": null,
-    "image": null
-  },
-  "french": {
-    "question": "Le conducteur qui sapprête à prendre une autre route à sa droite doit:",
-    "options": [
-      "Prendre modérément sa gauche sans dépasser le milieu de la route",
-      "Rester du côté gauche de la route",
-      "Rester du côté droit de la route"
-    ],
-    "correct": 2,
-    "explanation": null,
-    "image": null
-  }
-},
-{
-  "id": 249,
-  "category": "Safety",
-  "english": {
-    "question": "A driver who is about to leave the road he is on to another road on the left should:",
-    "options": [
-      "Keep to the middle, without tilting left or right",
-      "Tilt a little to the right but remain on the road",
-      "Tilt a little to the left but remain on the road"
-    ],
-    "correct": 2,
-    "explanation": null,
-    "image": null
-  },
-  "french": {
-    "question": "Le conducteur qui sapprête à prendre une autre route à sa gauche doit:",
-    "options": [
-      "Rester au milieu de la route sans dévier ni à gauche ni à droite",
-      "Prendre modérément sa droite sans dépasser le milieu de la route",
-      "Prendre modérément sa gauche sans dépasser le milieu de la route"
-    ],
-    "correct": 2,
-    "explanation": null,
-    "image": null
-  }
-},
-{
-  "id": 250,
-  "category": "Safety",
-  "english": {
-    "question": "When the driver is about to leave on road and get on another one, the driver should:",
-    "options": [
-      "Make the turn with moderate speed, after having checked that it is possible to do so withoout misaccommodating or putting others at risk",
-      "Titlt slowly to the right",
-      "Make the appropriate turn with utmost speed so as not to misaccommodate others"
-    ],
-    "correct": 0,
-    "explanation": null,
-    "image": null
-  },
-  "french": {
-    "question": "Le conducteur qui sapprête à prendre une autre route doit:",
-    "options": [
-      "Tourner à vitesse modérée après avoir vérifé quil ne dérange pas les autres ni ne les met en danger",
-      "Prendre la droite lentement",
-      "Tourner très rapidement pour ne pas déranger les autres"
-    ],
-    "correct": 0,
-    "explanation": null,
-    "image": null
-  }
-},
-    {
-    "id": 251,
-    "category": "Safety",
-    "english": {
-        "question": "It is best to keep a 'safe distance':",
-        "options": [
-            "From all sides of the vehicle",
-            "From the left and the right sides only",
-            "From the front and the end sides only"
+            "On the left when the road is marked by a broken line",
+            "When the road is divided into multiple lanes by broken lines",
+            "In curves"
         ],
         "correct": 0,
-        "explanation": "Keeping a safe distance from all sides of your vehicle reduces the risk of collisions.",
+        "explanation": "It is forbidden to overtake on the left when the road is marked by a broken line.",
         "image": null
-        },
-        "french": {
-        "question": "Il est préférable de garder une distance de sécurité :",
-        "options": [
-            "De tous les côtés du véhicule",
-            "A gauche et à droite du véhicule seulement",
-            "Devant et derrière le véhicule seulement"
-        ],
-        "correct": 0,
-        "explanation": "Garder une distance de sécurité de tous les côtés réduit le risque de collisions.",
-        "image": null
-        }
     },
-    {
-    "id": 252,
-    "category": "Safety",
-    "english": {
-        "question": "It is important to allow a 'safe distance' because:",
+    "french": {
+        "question": "Il est interdit deffectuer un dépassement:",
         "options": [
-            "It gives other vehicles a chance to enter the lane",
-            "It prevents distraction with other vehicles",
-            "It gives drivers the time to react to what happens"
-        ],
-        "correct": 2,
-        "explanation": "A safe distance gives drivers enough time to react safely to road conditions and other vehicles.",
-        "image": null
-        },
-        "french": {
-        "question": "Il est important de garder une distance de sécurité, parce qu'elle :",
-        "options": [
-            "Permet aux autres véhicules d'intégrer la circulation",
-            "Empêche le conducteur de se distraire",
-            "Donne un espace pour réagir"
-        ],
-        "correct": 2,
-        "explanation": "Une distance de sécurité adéquate donne au conducteur le temps de réagir.",
-        "image": null
-        }
-    },
-    {
-    "id": 253,
-    "category": "Safety",
-    "english": {
-        "question": "A solid green light at the intersection means:",
-        "options": [
-            "You should stop and check traffic in the other direction before you carry on",
-            "You cannot turn right",
-            "You can cross the intersection if it is possible"
-        ],
-        "correct": 2,
-        "explanation": "A solid green light means you may proceed through the intersection if it is safe to do so.",
-        "image": null
-        },
-        "french": {
-        "question": "Un feu vert continu sur l'intersection signifie :",
-        "options": [
-            "Qu'il faut s'arrêter et vérifier que la route est libre avant de continuer",
-            "Qu'il est impossible de tourner vers la droite",
-            "Qu'il est possible de franchir l'intersection s'il n'y a pas d'empêchement"
-        ],
-        "correct": 2,
-        "explanation": "Un feu vert continu signifie que vous pouvez passer si la voie est libre.",
-        "image": null
-        }
-    },
-    {
-    "id": 254,
-    "category": "Safety",
-    "english": {
-        "question": "A flashing yellow light means:",
-        "options": [
-            "You can carry on if the road is clear",
-            "You should stop and carry on only when the road is clear",
-            "Reduce your speed and carry on cautiously"
-        ],
-        "correct": 2,
-        "explanation": "A flashing yellow light signals drivers to slow down and proceed carefully.",
-        "image": null
-        },
-        "french": {
-        "question": "Un feu jaune clignotant signifie :",
-        "options": [
-            "Qu'il est possible d'avancer si la route est libre",
-            "Qu'il faut s'arrêter et vérifier que la route est libre avant de continuer",
-            "Qu'il faut ralentir et avancer prudemment"
-        ],
-        "correct": 2,
-        "explanation": "Un feu jaune clignotant indique de ralentir et de continuer avec prudence.",
-        "image": null
-        }
-    },
-    {
-    "id": 255,
-    "category": "Safety",
-    "english": {
-        "question": "A yellow light on the intersection means you should:",
-        "options": [
-            "Stop",
-            "Go ahead",
-            "Reduce your speed and be ready to stop"
-        ],
-        "correct": 2,
-        "explanation": "A yellow light warns drivers to slow down and prepare to stop.",
-        "image": null
-        },
-        "french": {
-        "question": "Un feu jaune sur l'intersection signifie qu'il faut :",
-        "options": [
-            "S'arrêter",
-            "Démarrer",
-            "Ralentir et se préparer à s'arrêter"
-        ],
-        "correct": 2,
-        "explanation": "Un feu jaune indique de ralentir et de se préparer à s'arrêter.",
-        "image": null
-        }
-    },
-    {
-    "id": 256,
-    "category": "Law",
-    "english": {
-        "question": "If you have a flat tyre while you're traveling:",
-        "options": [
-            "Press on the brakes to slow down, and pull off the road",
-            "Release the accelerator to allow the vehicle to slow down, keep the steering wheel straight, and pull off the road",
-            "Let the steering wheel take the reins"
-        ],
-        "correct": 1,
-        "explanation": "You should ease off the accelerator, hold the steering steady, and safely pull off the road.",
-        "image": null
-        },
-        "french": {
-        "question": "Lorsqu'un pneu éclate sur la route, il faut :",
-        "options": [
-            "Appuyer sur la pédale de frein pour ralentir, et se dégager de la route",
-            "Enlever le pied délicatement de la pédale d'accélérateur pour permettre au véhicule de ralentir, retenir le volant des deux mains, et se dégager de la route",
-            "Abandonner le volant"
-        ],
-        "correct": 1,
-        "explanation": "Il faut relâcher l'accélérateur, maintenir le volant, et sortir prudemment de la route.",
-        "image": null
-        }
-    },
-    {
-    "id": 257,
-    "category": "Law",
-    "english": {
-        "question": "If the lights of the vehicle traveling in the opposite direction are bothering you, you should:",
-        "options": [
-            "Look towards the middle of the road",
-            "Look towards the left side of the road",
-            "Look down, and towards the right side of the road"
-        ],
-        "correct": 2,
-        "explanation": "Looking down and to the right helps reduce glare from oncoming headlights.",
-        "image": null
-        },
-        "french": {
-        "question": "Si les feux du véhicule en face dérangent le conducteur, le conducteur doit tourner son regard vers :",
-        "options": [
-            "Le milieu de la route",
-            "Le côté gauche de la route",
-            "Le bas et du côté droit de la route"
-        ],
-        "correct": 2,
-        "explanation": "Il faut regarder en bas et à droite pour éviter l'éblouissement.",
-        "image": null
-        }
-    },
-    {
-    "id": 259,
-    "category": "Safety",
-    "english": {
-        "question": "When you enter a highway, you should:",
-        "options": [
-            "Slow down",
-            "Drive below the speed limit",
-            "Drive within the highway traffic speed"
-        ],
-        "correct": 2,
-        "explanation": "Matching the highway traffic speed ensures safe merging and flow.",
-        "image": null
-        },
-        "french": {
-        "question": "Après avoir pris l'autoroute, le conducteur doit :",
-        "options": [
-            "Ralentir",
-            "Circuler à une vitesse inférieure à la vitesse indiquée",
-            "Circuler à une vitesse proche de celle de la circulation sur cette autoroute"
-        ],
-        "correct": 2,
-        "explanation": "Il faut rouler à une vitesse proche de celle des autres véhicules pour la sécurité.",
-        "image": null
-        }
-    },
-    {
-    "id": 260,
-    "category": "Safety",
-    "english": {
-        "question": "If the road is marked with one solid line and one broken line:",
-        "options": [
-            "The driver may change lanes if the broken line is to the left",
-            "The driver may not change lanes if the broken line is to the right",
-            "The driver may not change lanes if the broken line is to the left"
-        ],
-        "correct": 2,
-        "explanation": "Drivers may cross a broken line on their side to change lanes.",
-        "image": null
-        },
-        "french": {
-        "question": "Si la voie est délimitée par deux lignes adjacentes, l'une continue et l'autre discontinue :",
-        "options": [
-            "Il est permis au conducteur de franchir la ligne discontinue si cette ligne est directement à sa gauche",
-            "Il n'est pas permis au conducteur de franchir la ligne discontinue si cette ligne est directement à sa droite",
-            "Il n'est pas permis au conducteur de franchir la ligne discontinue si cette ligne est directement à sa gauche"
-        ],
-        "correct": 2,
-        "explanation": "Il est permis de franchir la ligne discontinue de son côté pour changer de voie.",
-        "image": null
-        }
-    },
-    {
-    "id": 261,
-    "category": "Safety",
-    "english": {
-        "question": "If a vehicle is pressing behind you, and you are on the left lane on a freeway, you should:",
-        "options": [
-            "Speed up",
-            "Press the brakes intermittently to drive the other vehicle to move away",
-            "Move to the right lane, and adjust your speed to the traffic speed on that lane"
-        ],
-        "correct": 2,
-        "explanation": "You should let faster traffic pass by moving right and matching speed.",
-        "image": null
-        },
-        "french": {
-        "question": "Si le conducteur derrière toi est pressé alors que tu es sur la voie gauche d'une autoroute, tu dois :",
-        "options": [
-            "Accélérer",
-            "Appuyer sur la pédale de frein de façon intermittante pour qu'il se dégage",
-            "Prendre la voie de droite en ajustant la vitesse de ta voiture pour qu'elle corresponde au rythme de la circulation sur cette voie"
-        ],
-        "correct": 2,
-        "explanation": "Il faut laisser passer le véhicule rapide en prenant la voie de droite et en adaptant sa vitesse.",
-        "image": null
-        }
-    },
-    {
-    "id": 262,
-    "category": "Law",
-    "english": {
-        "question": "If your brakes stop working while you are on the road, you should:",
-        "options": [
-            "Turn off the engine",
-            "Head directly to a repair shop",
-            "Quickly press on the brakes with high frequency"
-        ],
-        "correct": 2,
-        "explanation": "Pumping the brake pedal rapidly can help build brake pressure in an emergency.",
-        "image": null
-        },
-        "french": {
-        "question": "Quand les freins ne fonctionnent plus alors que le conducteur est sur la route, le conducteur doit :",
-        "options": [
-            "Arrêter le moteur",
-            "Se diriger immédiatement vers le garage",
-            "Appuyer répétitivement sur la pédale de frein"
-        ],
-        "correct": 2,
-        "explanation": "Appuyer rapidement plusieurs fois sur la pédale peut rétablir la pression du frein.",
-        "image": null
-        }
-    },
-    {
-    "id": 263,
-    "category": "Law",
-    "english": {
-        "question": "In case of bad weather, the driver should:",
-        "options": [
-            "Drive at the upper speed limit",
-            "Drive below the upper speed limit so as to accommodate road conditions",
-            "Drive at the upper speed limit and turn on the lights"
-        ],
-        "correct": 1,
-        "explanation": "Slowing down according to conditions improves safety.",
-        "image": null
-        },
-        "french": {
-        "question": "Quand il fait mauvais temps, le conducteur doit :",
-        "options": [
-            "Rouler à la vitesse maximale",
-            "Rouler en dessous de la vitesse maximale, selon les conditions de la route",
-            "Rouler à la vitesse maximale et allumer les feux"
-        ],
-        "correct": 1,
-        "explanation": "Il faut adapter sa vitesse aux conditions pour assurer la sécurité.",
-        "image": null
-        }
-    },
-    {
-    "id": 264,
-    "category": "Law",
-    "english": {
-        "question": "The driver needs a bigger 'safe distance':",
-        "options": [
-            "On wet roads",
-            "Where there are other cars in front",
-            "On dry roads"
-        ],
-        "correct": 0,
-        "explanation": "Wet roads require greater stopping distances due to reduced traction.",
-        "image": null
-        },
-        "french": {
-        "question": "Le conducteur doit maintenir un espace de sécurité plus grand quand il roule :",
-        "options": [
+            "Par la gauche quand la route est marquée par une ligne discontinue",
             "Sur une route humide",
             "Derrière d'autres véhicules",
             "Sur une route sèche"
