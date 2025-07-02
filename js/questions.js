@@ -5496,9 +5496,9 @@ window.questions = [
         "One-minute parking",
         "No parking"
       ],
-      "correct": 0,
+      "correct": 1,
       "explanation": "This sign indicates a parking area.",
-      "image": "./images/parking.png"
+      "image": "./images/one-min-parking.png"
     },
     "french": {
       "question": "Que signifie ce panneau ?",
@@ -5507,9 +5507,9 @@ window.questions = [
         "Stationnement à durée limitée",
         "Stationnement interdit"
       ],
-      "correct": 0,
+      "correct": 1,
       "explanation": "Ce panneau indique une zone de stationnement.",
-      "image": "./images/parking.png"
+      "image": "./images/one-min-parking.png"
     }
   },
   {
@@ -5678,7 +5678,7 @@ window.questions = [
         "Reduce Speed",
         "Indirect bend to the left"
       ],
-      "correct": 0,
+      "correct": 2,
       "explanation": "This sign warns of a bend ahead.",
       "image": "./images/bend-ahead.png"
     },
@@ -5689,7 +5689,7 @@ window.questions = [
         "Ralentissez",
         "Virage indirect vers la gauche"
       ],
-      "correct": 0,
+      "correct": 2,
       "explanation": "Ce panneau avertit d'un virage à venir.",
       "image": "./images/bend-ahead.png"
     }
