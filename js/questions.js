@@ -4041,7 +4041,7 @@ window.questions = [
         "Motorbikes lane",
         "No entry for motorbikes"
       ],
-      "correct": 1,
+      "correct": 2,
       "explanation": "This sign indicates that motorbikes are prohibites to enter.",
       "image": "./images/no-entry-motorbikes.png"
     },
@@ -4052,7 +4052,7 @@ window.questions = [
         "Voie réservée aux deux roues",
         "Passage interdit aux deux roues"
       ],
-      "correct": 1,
+      "correct": 2,
       "explanation": "Ce panneau indique que les deux roues sont interdits d'enter.",
       "image": "./images/no-entry-motorbikes.png"
     }
@@ -4925,7 +4925,7 @@ window.questions = [
         "Mandatory upper speed",
         "Mandatory lower speed"
       ],
-      "correct": 0,
+      "correct": 2,
       "explanation": "This sign inidicated a mandatory lower speed",
       "image": "./images/mandatory-lower-speed.png"
     },
@@ -4936,7 +4936,7 @@ window.questions = [
         "Vitesse maximale obligatoire",
         "Vitesse minimale obligatoire"
       ],
-      "correct": 0,
+      "correct": 2,
       "explanation": "Ce panneau indique une vitesse minimale obligatoire",
       "image": "./images/mandatory-lower-speed.png"
     }
