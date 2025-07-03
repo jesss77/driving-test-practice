@@ -4119,8 +4119,8 @@ window.questions = [
         "No entry for trucks",
         "No entry to cars exceeding 2.3m in width"
       ],
-      "correct": 0,
-      "explanation": "This sign indicates that trucks exceeding 2.3m in height are not allowed.",
+      "correct": 2,
+      "explanation": "This sign indicates that  cars exceeding 2.3m in width are not allowed.",
       "image": "./images/no-entry-cars-width-230.png"
     },
     "french": {
@@ -4130,8 +4130,8 @@ window.questions = [
         "Passage interdit aux camions",
         "Passage interdit aux voitures de plus de 2,3 m de largeur"
       ],
-      "correct": 0,
-      "explanation": "Ce panneau interdit les camions de plus de 2,3 m de hauteur.",
+      "correct": 2,
+      "explanation": "Ce panneau interdit les voitures de plus de 2,3 m de largeur.",
       "image": "./images/no-entry-cars-width-230.png"
     }
   },
